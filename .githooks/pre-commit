@@ -1,0 +1,8 @@
+#!/bin/sh
+branch=$(git branch --show-current)
+case "$branch" in
+  main|master|dev)
+    echo "No hagas commits directos en $branch. Crea una rama personal desde dev."
+    exit 1
+    ;;
+esac

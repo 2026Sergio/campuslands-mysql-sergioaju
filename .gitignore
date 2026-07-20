@@ -1,0 +1,11 @@
+.env
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql.gz
+*.log
+node_modules/
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,67 @@
+name: Revision automatica de estructura
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, edited, ready_for_review]
+    branches: [main, dev]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  validar-entrega:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Revisar estructura del Pull Request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const marker = '<!-- campuslands-mysql-auto-review -->';
+            const pr = context.payload.pull_request;
+            const { owner, repo } = context.repo;
+            const files = await github.paginate(github.rest.pulls.listFiles, { owner, repo, pull_number: pr.number, per_page: 100 });
+            const errors = [];
+            const warnings = [];
+            const validPath = /^(basico|intermedio|avanzado|funcionalidades)\/ejercicio-[0-9]+\/resoluciones\/[a-z0-9]+(?:-[a-z0-9]+)+\/.+/;
+            const forbidden = [
+              { pattern: /^\.vscode\//, reason: 'No subas configuracion local del editor.' },
+              { pattern: /^\.idea\//, reason: 'No subas configuracion local del editor.' },
+              { pattern: /(^|\/)\.DS_Store$/, reason: 'No subas archivos temporales del sistema.' },
+              { pattern: /(^|\/)node_modules\//, reason: 'No subas dependencias generadas.' },
+              { pattern: /(^|\/)\.env($|\.)/, reason: 'No subas variables de entorno.' },
+              { pattern: /\.(sqlitedb|sqlite|sqlite3|db|dump)$/i, reason: 'No subas bases locales ni dumps pesados.' }
+            ];
+            if (pr.base.ref === 'main') errors.push('Este Pull Request apunta a main. main es produccion y no recibe entregas de alumnos. Abre un nuevo PR hacia dev.');
+            if (pr.base.ref !== 'dev' && pr.base.ref !== 'main') errors.push('La base correcta es dev. Este PR apunta a ' + pr.base.ref + '.');
+            if (!pr.head.ref || ['main','master','dev','respuestas'].includes(pr.head.ref)) errors.push('La rama de trabajo debe ser personal, por ejemplo alumno/nombre-apellido/ejercicio-001.');
+            for (const file of files) {
+              const p = file.filename;
+              for (const rule of forbidden) if (rule.pattern.test(p)) errors.push(p + ': ' + rule.reason);
+              if (!validPath.test(p)) errors.push(p + ': la entrega debe ir en <nivel>/ejercicio-XXX/resoluciones/nombre-apellido/.');
+              if (file.status === 'removed') warnings.push(p + ': evita borrar archivos base o archivos de otros estudiantes.');
+            }
+            const uniqueErrors = [...new Set(errors)];
+            const uniqueWarnings = [...new Set(warnings)];
+            const ok = uniqueErrors.length === 0;
+            const body = [
+              marker,
+              '## ' + (ok ? 'Revision automatica aprobada' : 'PR rechazado por estructura incorrecta'),
+              '',
+              ok ? 'La entrega cumple el flujo base: PR hacia dev y archivos dentro de la carpeta personal del ejercicio.' : 'Este PR queda bloqueado porque no cumple las reglas de entrega:',
+              '',
+              ...uniqueErrors.map(e => '- ' + e),
+              ...(uniqueWarnings.length ? ['', 'Observaciones:', ...uniqueWarnings.map(w => '- ' + w)] : []),
+              '',
+              'Reglas recordadas:',
+              '- Trabaja en tu propia rama.',
+              '- Abre PR hacia dev, no hacia main.',
+              '- Tu entrega debe ir en <nivel>/ejercicio-XXX/resoluciones/nombre-apellido/.',
+              '- No modifiques archivos base ni respuestas de otros estudiantes.'
+            ].join('\n');
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number: pr.number, per_page: 100 });
+            const previous = comments.find(c => c.user.type === 'Bot' && c.body.includes(marker));
+            if (previous) await github.rest.issues.updateComment({ owner, repo, comment_id: previous.id, body });
+            else await github.rest.issues.createComment({ owner, repo, issue_number: pr.number, body });
+            if (!ok) core.setFailed(uniqueErrors.join('\n'));
