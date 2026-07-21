@@ -9,6 +9,7 @@ las cuales es lo más básico:
 - nombre
 - categoria
 - blindaje
+
 *Para esta tabla no se usaron relaciones*
 
 ### Creación de registros 📝
@@ -16,6 +17,7 @@ Se insertaron 15 registros con únicamente los siguientes campos:
 - nombre
 - categoria
 - blindaje
+
 *El id_jugador está configurado como PK y como auto_incremente, por ende no es necesario volver a declararlo en los registros, porque automáticamente se asignará a cada registro*
 
 ### Consultas ✅
