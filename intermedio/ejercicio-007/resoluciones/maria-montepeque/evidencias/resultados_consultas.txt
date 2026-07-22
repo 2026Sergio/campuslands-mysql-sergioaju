@@ -1,0 +1,53 @@
++----------------+-----------------+------------------+---------------+--------+----------+
+| jugador        | equipo_local    | equipo_visitante | fecha_partido | minuto | tipo_gol |
++----------------+-----------------+------------------+---------------+--------+----------+
+| Mateo Rivas    | Aguilas Doradas | Tigres del Sur   | 2026-05-10    |     15 | normal   |
+| Diego Palma    | Aguilas Doradas | Tigres del Sur   | 2026-05-10    |     33 | normal   |
+| Mateo Rivas    | Aguilas Doradas | Tigres del Sur   | 2026-05-10    |     78 | penal    |
+| Nico Farias    | Leones FC       | Aguilas Doradas  | 2026-05-24    |     10 | normal   |
+| Santi Belmonte | Leones FC       | Aguilas Doradas  | 2026-05-24    |     45 | normal   |
+| Nico Farias    | Leones FC       | Aguilas Doradas  | 2026-05-24    |     60 | normal   |
+| Ruben Casal    | Tigres del Sur  | Leones FC        | 2026-06-07    |     20 | autogol  |
+| Andres Roble   | Tigres del Sur  | Leones FC        | 2026-06-07    |     55 | normal   |
+| Mateo Rivas    | Aguilas Doradas | Leones FC        | 2026-06-21    |      5 | normal   |
+| Andres Roble   | Aguilas Doradas | Leones FC        | 2026-06-21    |     40 | normal   |
+| Mateo Rivas    | Aguilas Doradas | Leones FC        | 2026-06-21    |     88 | normal   |
+| Nico Farias    | Aguilas Doradas | Leones FC        | 2026-06-21    |     90 | penal    |
++----------------+-----------------+------------------+---------------+--------+----------+
++----------------+-----------------+-------------+
+| jugador        | equipo          | total_goles |
++----------------+-----------------+-------------+
+| Mateo Rivas    | Aguilas Doradas |           4 |
+| Nico Farias    | Leones FC       |           3 |
+| Andres Roble   | Leones FC       |           2 |
+| Santi Belmonte | Aguilas Doradas |           1 |
+| Diego Palma    | Tigres del Sur  |           1 |
+| Ruben Casal    | Tigres del Sur  |           1 |
++----------------+-----------------+-------------+
++-----------------+------------------+---------------+-------------+
+| equipo_local    | equipo_visitante | fecha_partido | total_goles |
++-----------------+------------------+---------------+-------------+
+| Aguilas Doradas | Leones FC        | 2026-06-21    |           4 |
+| Aguilas Doradas | Tigres del Sur   | 2026-05-10    |           3 |
+| Leones FC       | Aguilas Doradas  | 2026-05-24    |           3 |
++-----------------+------------------+---------------+-------------+
++-------------+---------------+--------+----------+
+| jugador     | fecha_partido | minuto | tipo_gol |
++-------------+---------------+--------+----------+
+| Nico Farias | 2026-06-21    |     90 | penal    |
+| Mateo Rivas | 2026-06-21    |     88 | normal   |
++-------------+---------------+--------+----------+
++--------------+----------------------------+
+| jugador      | partidos_distintos_con_gol |
++--------------+----------------------------+
+| Andres Roble |                          2 |
+| Mateo Rivas  |                          2 |
+| Nico Farias  |                          2 |
++--------------+----------------------------+
++----------+-------------+
+| tipo_gol | total_goles |
++----------+-------------+
+| normal   |           9 |
+| penal    |           2 |
+| autogol  |           1 |
++----------+-------------+
