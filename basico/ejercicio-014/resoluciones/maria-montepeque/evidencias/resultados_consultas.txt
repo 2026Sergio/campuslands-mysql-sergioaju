@@ -1,0 +1,54 @@
++--------------------------------+---------------------+---------------+
+| titulo                         | saga                | fecha_estreno |
++--------------------------------+---------------------+---------------+
+| Estelar Infinito: Origen       | Estelar Infinito    | 1999-05-19    |
+| Estelar Infinito: Fractura     | Estelar Infinito    | 2002-05-16    |
+| Estelar Infinito: Convergencia | Estelar Infinito    | 2005-05-19    |
+| Custodios del Vacio: Alba      | Custodios del Vacio | 2009-12-18    |
+| Horizonte Cuantico: Umbral     | Horizonte Cuantico  | 2014-11-05    |
+| Horizonte Cuantico: Vortice    | Horizonte Cuantico  | 2018-03-09    |
+| Custodios del Vacio: Ocaso     | Custodios del Vacio | 2022-12-16    |
++--------------------------------+---------------------+---------------+
++--------------+-----------------+
+| anio_estreno | total_peliculas |
++--------------+-----------------+
+|         1999 |               1 |
+|         2002 |               1 |
+|         2005 |               1 |
+|         2009 |               1 |
+|         2014 |               1 |
+|         2018 |               1 |
+|         2022 |               1 |
++--------------+-----------------+
++--------------------------------+---------------+------------------+
+| titulo                         | fecha_estreno | antiguedad_anios |
++--------------------------------+---------------+------------------+
+| Estelar Infinito: Origen       | 1999-05-19    |               27 |
+| Estelar Infinito: Fractura     | 2002-05-16    |               24 |
+| Estelar Infinito: Convergencia | 2005-05-19    |               21 |
+| Custodios del Vacio: Alba      | 2009-12-18    |               16 |
++--------------------------------+---------------+------------------+
++--------------------------------+---------------+------------------+
+| titulo                         | fecha_estreno | antiguedad_anios |
++--------------------------------+---------------+------------------+
+| Custodios del Vacio: Ocaso     | 2022-12-16    |                3 |
+| Horizonte Cuantico: Vortice    | 2018-03-09    |                8 |
+| Horizonte Cuantico: Umbral     | 2014-11-05    |               11 |
+| Custodios del Vacio: Alba      | 2009-12-18    |               16 |
+| Estelar Infinito: Convergencia | 2005-05-19    |               21 |
+| Estelar Infinito: Fractura     | 2002-05-16    |               24 |
+| Estelar Infinito: Origen       | 1999-05-19    |               27 |
++--------------------------------+---------------+------------------+
++--------------------------------+---------------+
+| titulo                         | fecha_estreno |
++--------------------------------+---------------+
+| Horizonte Cuantico: Umbral     | 2014-11-05    |
+| Horizonte Cuantico: Vortice    | 2018-03-09    |
+| Custodios del Vacio: Fragmento | 2019-08-30    |
++--------------------------------+---------------+
++-----------------------------+---------------+----------------+
+| titulo                      | fecha_estreno | dias_restantes |
++-----------------------------+---------------+----------------+
+| Horizonte Cuantico: Colapso | 2026-11-20    |            121 |
+| Estelar Infinito: Renacer   | 2027-12-17    |            513 |
++-----------------------------+---------------+----------------+
