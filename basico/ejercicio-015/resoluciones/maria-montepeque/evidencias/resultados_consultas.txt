@@ -1,0 +1,55 @@
++--------------------+--------------------+------------+--------+
+| titulo             | desarrolladora     | genero     | precio |
++--------------------+--------------------+------------+--------+
+| Forja de Titanes   | Ironclad Works     | rpg        |  54.99 |
+| Circuito Roto      | Byte Forge Studios | accion     |  49.99 |
+| Salto Cuantico     | Quantum Vale       | accion     |  44.99 |
+| Ecos del Abismo    | Nova Interactive   | rpg        |  39.99 |
+| Reino de Cristal   | Pixel Horizon      | estrategia |  34.99 |
+| Liga Estelar       | Quantum Vale       | deportes   |  29.99 |
+| Frontera Salvaje   | Nova Interactive   | aventura   |  24.99 |
+| Sombras de Acero   | Byte Forge Studios | accion     |  19.99 |
+| Vientos del Norte  | Pixel Horizon      | aventura   |  14.99 |
+| Duelo de Campeones | Ironclad Works     | deportes   |   9.99 |
++--------------------+--------------------+------------+--------+
++--------------------+--------------+
+| desarrolladora     | total_juegos |
++--------------------+--------------+
+| Byte Forge Studios |            2 |
+| Ironclad Works     |            2 |
+| Nova Interactive   |            2 |
+| Pixel Horizon      |            2 |
+| Quantum Vale       |            2 |
++--------------------+--------------+
++--------------------+---------------+
+| desarrolladora     | horas_totales |
++--------------------+---------------+
+| Ironclad Works     |            72 |
+| Byte Forge Studios |            68 |
+| Nova Interactive   |            57 |
+| Quantum Vale       |            53 |
+| Pixel Horizon      |            30 |
++--------------------+---------------+
++------------------+------------------+--------------+
+| titulo           | desarrolladora   | fecha_compra |
++------------------+------------------+--------------+
+| Reino de Cristal | Pixel Horizon    | 2024-11-30   |
+| Ecos del Abismo  | Nova Interactive | 2025-03-10   |
+| Liga Estelar     | Quantum Vale     | 2025-12-25   |
++------------------+------------------+--------------+
++------------------+--------------------+----------+--------+
+| titulo           | desarrolladora     | pais     | precio |
++------------------+--------------------+----------+--------+
+| Forja de Titanes | Ironclad Works     | Colombia |  54.99 |
+| Circuito Roto    | Byte Forge Studios | Mexico   |  49.99 |
+| Salto Cuantico   | Quantum Vale       | Chile    |  44.99 |
++------------------+--------------------+----------+--------+
++--------------------+-----------+-------------------+
+| desarrolladora     | pais      | generos_distintos |
++--------------------+-----------+-------------------+
+| Ironclad Works     | Colombia  |                 2 |
+| Nova Interactive   | Argentina |                 2 |
+| Pixel Horizon      | Espana    |                 2 |
+| Quantum Vale       | Chile     |                 2 |
+| Byte Forge Studios | Mexico    |                 1 |
++--------------------+-----------+-------------------+
