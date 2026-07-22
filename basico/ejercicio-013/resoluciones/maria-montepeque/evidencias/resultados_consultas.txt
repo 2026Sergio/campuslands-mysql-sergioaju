@@ -1,0 +1,42 @@
++---------------------+-------------+--------------+
+| titulo              | subgenero   | calificacion |
++---------------------+-------------+--------------+
+| Mente Fracturada    | psicologico |          8.9 |
+| Sombra en el Atico  | paranormal  |          8.2 |
+| Brote Nocturno      | zombis      |          7.7 |
+| Cuchilla Silenciosa | slasher     |          7.5 |
+| Amanecer Muerto     | zombis      |          7.1 |
++---------------------+-------------+--------------+
++-----------------------+-------------+--------------+
+| titulo                | director    | anio_estreno |
++-----------------------+-------------+--------------+
+| El Ultimo Experimento | Sara Blume  |         2024 |
+| Vinculo Oscuro        | Ivan Torres |         2025 |
++-----------------------+-------------+--------------+
++--------------+-----------------+
+| estado       | total_peliculas |
++--------------+-----------------+
+| disponible   |               5 |
+| proximamente |               2 |
+| retirado     |               2 |
+| en_revision  |               1 |
++--------------+-----------------+
++--------------------+--------------+------------+
+| titulo             | calificacion | estado     |
++--------------------+--------------+------------+
+| Mente Fracturada   |          8.9 | disponible |
+| Sombra en el Atico |          8.2 | disponible |
++--------------------+--------------+------------+
++--------------------+-------------+----------------+
+| titulo             | director    | fecha_agregada |
++--------------------+-------------+----------------+
+| Camino sin Retorno | Marco Duval | 2025-05-01     |
+| Ecos del Manicomio | Sara Blume  | 2025-06-15     |
++--------------------+-------------+----------------+
++-----------------------+--------------+
+| titulo                | estado       |
++-----------------------+--------------+
+| El Ultimo Experimento | proximamente |
+| Vinculo Oscuro        | proximamente |
+| Presencia Invisible   | en_revision  |
++-----------------------+--------------+
