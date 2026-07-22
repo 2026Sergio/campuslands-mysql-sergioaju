@@ -1,0 +1,48 @@
++--------------+------------------+--------------+
+| jugador      | equipo           | ciudad       |
++--------------+------------------+--------------+
+| ByteAla      | Cobras FS        | Ciudad Sur   |
+| LunaGoal     | Cobras FS        | Ciudad Sur   |
+| SkyeCierre   | Cobras FS        | Ciudad Sur   |
+| MikaWall     | Halcones Sala    | Ciudad Norte |
+| NovaKick     | Halcones Sala    | Ciudad Norte |
+| ZaraFive     | Halcones Sala    | Ciudad Norte |
+| KairoCierre  | Rayos Interior   | Ciudad Oeste |
+| PixelPortero | Rayos Interior   | Ciudad Oeste |
+| RexPivot     | Titanes Cubierta | Ciudad Este  |
+| TahoAla      | Titanes Cubierta | Ciudad Este  |
++--------------+------------------+--------------+
++------------------+--------------+---------------------------------+
+| equipo           | ciudad       | ciudades_distintas_en_el_equipo |
++------------------+--------------+---------------------------------+
+| Cobras FS        | Ciudad Sur   |                               1 |
+| Halcones Sala    | Ciudad Norte |                               1 |
+| Rayos Interior   | Ciudad Oeste |                               1 |
+| Titanes Cubierta | Ciudad Este  |                               1 |
++------------------+--------------+---------------------------------+
++------------------+---------------+
+| equipo           | goles_totales |
++------------------+---------------+
+| Cobras FS        |            24 |
+| Halcones Sala    |            20 |
+| Titanes Cubierta |            14 |
+| Rayos Interior   |             5 |
++------------------+---------------+
++---------------+-------------------+
+| equipo        | jugadores_activos |
++---------------+-------------------+
+| Halcones Sala |                 3 |
++---------------+-------------------+
++------------------+-------------+-------+
+| equipo           | jugador     | goles |
++------------------+-------------+-------+
+| Cobras FS        | LunaGoal    |    15 |
+| Halcones Sala    | NovaKick    |    12 |
+| Titanes Cubierta | RexPivot    |    10 |
+| Rayos Interior   | KairoCierre |     5 |
++------------------+-------------+-------+
++---------+-----------+------------+--------------------+
+| jugador | equipo    | ciudad     | tarjetas_amarillas |
++---------+-----------+------------+--------------------+
+| ByteAla | Cobras FS | Ciudad Sur |                  3 |
++---------+-----------+------------+--------------------+
