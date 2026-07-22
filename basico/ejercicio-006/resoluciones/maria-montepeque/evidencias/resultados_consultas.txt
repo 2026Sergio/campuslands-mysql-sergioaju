@@ -1,0 +1,53 @@
++---------------+--------------+-------------+
+| modelo        | marca        | potencia_hp |
++---------------+--------------+-------------+
+| Nevera        | Rimac        |        1914 |
+| Jesko         | Koenigsegg   |        1600 |
+| Chiron        | Bugatti      |        1500 |
+| Valkyrie      | Aston Martin |        1160 |
+| Revuelto      | Lamborghini  |        1015 |
+| SF90 Stradale | Ferrari      |         986 |
++---------------+--------------+-------------+
++---------------+-------------+-----------+
+| modelo        | marca       | precio    |
++---------------+-------------+-----------+
+| SF90 Stradale | Ferrari     | 625000.00 |
+| Revuelto      | Lamborghini | 608000.00 |
+| 765LT         | McLaren     | 358000.00 |
+| 296 GTB       | Ferrari     | 322000.00 |
++---------------+-------------+-----------+
++---------------+-------------+-------------+
+| modelo        | marca       | pais_origen |
++---------------+-------------+-------------+
+| SF90 Stradale | Ferrari     | Italia      |
+| 296 GTB       | Ferrari     | Italia      |
+| Revuelto      | Lamborghini | Italia      |
+| Huayra        | Pagani      | Italia      |
++---------------+-------------+-------------+
++------------+-------------+-------------------+------------+
+| modelo     | marca       | velocidad_max_kmh | estado     |
++------------+-------------+-------------------+------------+
+| Nevera     | Rimac       |               412 | disponible |
+| Revuelto   | Lamborghini |               350 | disponible |
+| 911 GT2 RS | Porsche     |               340 | disponible |
+| 765LT      | McLaren     |               330 | disponible |
++------------+-------------+-------------------+------------+
++------------+--------------+------------+
+| modelo     | marca        | estado     |
++------------+--------------+------------+
+| Revuelto   | Lamborghini  | disponible |
+| 765LT      | McLaren      | disponible |
+| 911 GT2 RS | Porsche      | disponible |
+| Nevera     | Rimac        | disponible |
+| Chiron     | Bugatti      | reservado  |
+| Jesko      | Koenigsegg   | reservado  |
+| Valkyrie   | Aston Martin | reservado  |
++------------+--------------+------------+
++---------------+-------------+-------------+------+
+| modelo        | marca       | pais_origen | anio |
++---------------+-------------+-------------+------+
+| Revuelto      | Lamborghini | Italia      | 2024 |
+| SF90 Stradale | Ferrari     | Italia      | 2023 |
+| 296 GTB       | Ferrari     | Italia      | 2022 |
+| Huayra        | Pagani      | Italia      | 2020 |
++---------------+-------------+-------------+------+
