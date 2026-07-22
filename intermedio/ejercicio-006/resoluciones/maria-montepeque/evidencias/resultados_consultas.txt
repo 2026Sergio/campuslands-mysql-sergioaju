@@ -1,0 +1,61 @@
++-------------+---------------+----------+
+| marca       | modelo        | color    |
++-------------+---------------+----------+
+| Bugatti     | Chiron        | Azul     |
+| Bugatti     | Chiron        | Negro    |
+| Ferrari     | SF90 Stradale | Amarillo |
+| Ferrari     | SF90 Stradale | Negro    |
+| Ferrari     | SF90 Stradale | Rojo     |
+| Koenigsegg  | Jesko         | Blanco   |
+| Koenigsegg  | Jesko         | Gris     |
+| Koenigsegg  | Jesko         | Rojo     |
+| Lamborghini | Revuelto      | Blanco   |
+| Lamborghini | Revuelto      | Naranja  |
+| Lamborghini | Revuelto      | Negro    |
+| Lamborghini | Revuelto      | Verde    |
+| McLaren     | 765LT         | Azul     |
+| McLaren     | 765LT         | Naranja  |
+| Porsche     | 911 GT2 RS    | Blanco   |
+| Porsche     | 911 GT2 RS    | Gris     |
+| Porsche     | 911 GT2 RS    | Negro    |
++-------------+---------------+----------+
++-------------+---------------+------------+
+| marca       | modelo        | precio     |
++-------------+---------------+------------+
+| Bugatti     | Chiron        | 3000000.00 |
+| Ferrari     | SF90 Stradale |  625000.00 |
+| Lamborghini | Revuelto      |  608000.00 |
+| Porsche     | 911 GT2 RS    |  293000.00 |
++-------------+---------------+------------+
++-------------+---------------+---------------+
+| marca       | modelo        | total_colores |
++-------------+---------------+---------------+
+| Lamborghini | Revuelto      |             4 |
+| Ferrari     | SF90 Stradale |             3 |
+| Porsche     | 911 GT2 RS    |             3 |
+| Koenigsegg  | Jesko         |             3 |
+| McLaren     | 765LT         |             2 |
+| Bugatti     | Chiron        |             2 |
++-------------+---------------+---------------+
++-------------+----------+---------------+
+| marca       | modelo   | total_colores |
++-------------+----------+---------------+
+| Lamborghini | Revuelto |             4 |
++-------------+----------+---------------+
++------------+--------+------------+
+| marca      | modelo | precio     |
++------------+--------+------------+
+| Koenigsegg | Jesko  | 3400000.00 |
++------------+--------+------------+
++----------+------------------------+
+| color    | modelos_que_lo_ofrecen |
++----------+------------------------+
+| Negro    |                      4 |
+| Blanco   |                      3 |
+| Azul     |                      2 |
+| Gris     |                      2 |
+| Naranja  |                      2 |
+| Rojo     |                      2 |
+| Amarillo |                      1 |
+| Verde    |                      1 |
++----------+------------------------+
