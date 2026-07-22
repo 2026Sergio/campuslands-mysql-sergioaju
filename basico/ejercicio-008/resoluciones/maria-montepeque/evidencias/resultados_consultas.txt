@@ -1,0 +1,50 @@
++--------------+---------------+-------+--------------------+----------------+------------+
+| nombre       | equipo        | goles | tarjetas_amarillas | tarjetas_rojas | estado     |
++--------------+---------------+-------+--------------------+----------------+------------+
+| NovaKick     | Halcones Sala |     2 |                  0 |              0 | activo     |
+| ZaraFive     | Halcones Sala |     1 |                  1 |              0 | activo     |
+| RexPivot     | Halcones Sala |     0 |                  2 |              1 | suspendido |
+| MikaWall     | Halcones Sala |     0 |                  0 |              0 | activo     |
+| TahoAla      | Halcones Sala |     0 |                  0 |              0 | activo     |
+| SkyeCierre   | Cobras FS     |     0 |                  0 |              0 | activo     |
+| LunaGoal     | Cobras FS     |     0 |                  0 |              0 | activo     |
+| ByteAla      | Cobras FS     |     0 |                  0 |              0 | activo     |
+| PixelPortero | Cobras FS     |     0 |                  0 |              0 | activo     |
+| KairoCierre  | Cobras FS     |     0 |                  0 |              0 | activo     |
++--------------+---------------+-------+--------------------+----------------+------------+
++----------+---------------+-------+
+| nombre   | equipo        | goles |
++----------+---------------+-------+
+| NovaKick | Halcones Sala |     2 |
+| ZaraFive | Halcones Sala |     1 |
++----------+---------------+-------+
++----------+---------------+----------------+------------+
+| nombre   | equipo        | tarjetas_rojas | estado     |
++----------+---------------+----------------+------------+
+| RexPivot | Halcones Sala |              1 | suspendido |
++----------+---------------+----------------+------------+
++--------------+---------------+----------+
+| nombre       | equipo        | posicion |
++--------------+---------------+----------+
+| ByteAla      | Cobras FS     | ala      |
+| KairoCierre  | Cobras FS     | cierre   |
+| LunaGoal     | Cobras FS     | pivote   |
+| PixelPortero | Cobras FS     | portero  |
+| SkyeCierre   | Cobras FS     | cierre   |
+| MikaWall     | Halcones Sala | portero  |
+| NovaKick     | Halcones Sala | pivote   |
+| TahoAla      | Halcones Sala | ala      |
+| ZaraFive     | Halcones Sala | ala      |
++--------------+---------------+----------+
++---------------+---------------+-------------------+---------------+
+| equipo        | goles_totales | amarillas_totales | rojas_totales |
++---------------+---------------+-------------------+---------------+
+| Halcones Sala |             3 |                 3 |             1 |
+| Cobras FS     |             0 |                 0 |             0 |
++---------------+---------------+-------------------+---------------+
++------------+-----------------+
+| estado     | total_jugadores |
++------------+-----------------+
+| activo     |               9 |
+| suspendido |               1 |
++------------+-----------------+
