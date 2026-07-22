@@ -1,0 +1,55 @@
++------------+------------------+--------------+---------+
+| gamer_tag  | escuadra         | region       | rol     |
++------------+------------------+--------------+---------+
+| DiegoHex   | Dragones Rojos   | LATAM Norte  | tirador |
+| FerNova    | Dragones Rojos   | LATAM Norte  | medio   |
+| IvanFrost  | Espectros Nova   | LATAM Centro | jungla  |
+| LiaGhost   | Espectros Nova   | LATAM Centro | top     |
+| CamiSpark  | Fenix Digital    | LATAM Sur    | tirador |
+| JulianRune | Fenix Digital    | LATAM Sur    | soporte |
+| RickTide   | Lobos del Sur    | LATAM Sur    | medio   |
+| ValStorm   | Lobos del Sur    | LATAM Sur    | jungla  |
+| BrunoAxe   | Titanes de Acero | LATAM Norte  | top     |
+| NoraSteel  | Titanes de Acero | LATAM Norte  | soporte |
++------------+------------------+--------------+---------+
++-----------+----------------+------+
+| gamer_tag | escuadra       | kda  |
++-----------+----------------+------+
+| FerNova   | Dragones Rojos | 6.20 |
+| RickTide  | Lobos del Sur  | 3.60 |
++-----------+----------------+------+
++------------------+--------------+--------------+
+| escuadra         | region       | kda_promedio |
++------------------+--------------+--------------+
+| Dragones Rojos   | LATAM Norte  |         6.03 |
+| Espectros Nova   | LATAM Centro |         4.30 |
+| Fenix Digital    | LATAM Sur    |         3.50 |
+| Titanes de Acero | LATAM Norte  |         3.30 |
+| Lobos del Sur    | LATAM Sur    |         3.28 |
++------------------+--------------+--------------+
++------------+------------------+-----------+
+| gamer_tag  | escuadra         | victorias |
++------------+------------------+-----------+
+| FerNova    | Dragones Rojos   |        42 |
+| DiegoHex   | Dragones Rojos   |        39 |
+| BrunoAxe   | Titanes de Acero |        38 |
+| JulianRune | Fenix Digital    |        34 |
+| CamiSpark  | Fenix Digital    |        22 |
++------------+------------------+-----------+
++------------------+-------------------+
+| escuadra         | jugadores_activos |
++------------------+-------------------+
+| Dragones Rojos   |                 2 |
+| Lobos del Sur    |                 2 |
+| Espectros Nova   |                 2 |
+| Fenix Digital    |                 1 |
+| Titanes de Acero |                 1 |
++------------------+-------------------+
++------------+------------------+-----------------+
+| gamer_tag  | escuadra         | fecha_fundacion |
++------------+------------------+-----------------+
+| BrunoAxe   | Titanes de Acero | 2019-11-05      |
+| NoraSteel  | Titanes de Acero | 2019-11-05      |
+| JulianRune | Fenix Digital    | 2020-07-01      |
+| CamiSpark  | Fenix Digital    | 2020-07-01      |
++------------+------------------+-----------------+
