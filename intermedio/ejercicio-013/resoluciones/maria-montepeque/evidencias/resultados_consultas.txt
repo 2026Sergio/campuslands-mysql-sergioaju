@@ -1,0 +1,50 @@
++--------------------+---------------+-------------+
+| titulo             | actor         | personaje   |
++--------------------+---------------+-------------+
+| Sombra en el Atico | Diego Palma   | Vecino      |
+| Sombra en el Atico | Elena Vasquez | Laura       |
+| Sombra en el Atico | Marco Duval   | Dr. Hoffman |
++--------------------+---------------+-------------+
++---------------+--------------------+------------+
+| actor         | titulo             | personaje  |
++---------------+--------------------+------------+
+| Elena Vasquez | Brote Nocturno     | Cientifica |
+| Elena Vasquez | Sombra en el Atico | Laura      |
+| Elena Vasquez | Mente Fracturada   | Dra. Reyes |
++---------------+--------------------+------------+
++---------------+-----------------+
+| actor         | total_peliculas |
++---------------+-----------------+
+| Elena Vasquez |               3 |
+| Carla Nunez   |               2 |
+| Diego Palma   |               2 |
+| Ivan Torres   |               2 |
+| Marco Duval   |               2 |
+| Sara Blume    |               2 |
++---------------+-----------------+
++--------------------+---------------+
+| titulo             | total_actores |
++--------------------+---------------+
+| Amanecer Muerto    |             3 |
+| Ecos del Manicomio |             3 |
+| Mente Fracturada   |             3 |
+| Sombra en el Atico |             3 |
+| Brote Nocturno     |             2 |
++--------------------+---------------+
++--------------------+--------------------+----------------+
+| pelicula_1         | pelicula_2         | actor_en_comun |
++--------------------+--------------------+----------------+
+| Amanecer Muerto    | Brote Nocturno     | Carla Nunez    |
+| Mente Fracturada   | Amanecer Muerto    | Ivan Torres    |
+| Mente Fracturada   | Brote Nocturno     | Elena Vasquez  |
+| Mente Fracturada   | Ecos del Manicomio | Sara Blume     |
+| Sombra en el Atico | Brote Nocturno     | Elena Vasquez  |
+| Sombra en el Atico | Ecos del Manicomio | Marco Duval    |
+| Sombra en el Atico | Ecos del Manicomio | Diego Palma    |
+| Sombra en el Atico | Mente Fracturada   | Elena Vasquez  |
++--------------------+--------------------+----------------+
++---------------+-------------------+
+| actor         | total_apariciones |
++---------------+-------------------+
+| Elena Vasquez |                 3 |
++---------------+-------------------+
