@@ -1,0 +1,16 @@
+INSERT INTO jugadores_pingpong (nombre_jugador, edad, ranking, partidos_ganados, partidos_perdidos) VALUES
+('Carlos Mendoza', 22, 1, 48, 5),
+('Ana Rodriguez', 24, 2, 45, 7),
+('Luis Martinez', 21, 3, 42, 9),
+('Sofia Castillo', 26, 4, 40, 10),
+('Jorge Morales', 23, 5, 38, 12),
+('Elena Gomez', 28, 6, 36, 14),
+('Miguel Torres', 20, 7, 34, 15),
+('Laura Hernandez', 25, 8, 32, 17),
+('Andres Ramirez', 27, 9, 30, 18),
+('Valentina Perez', 22, 10, 28, 20),
+('Daniel Castro', 29, 11, 26, 21),
+('Camila Flores', 24, 12, 24, 23),
+('Fernando Lopez', 31, 13, 22, 25),
+('Natalia Vargas', 19, 14, 20, 27),
+('Sebastian Ruiz', 30, 15, 18, 29);
