@@ -1,0 +1,47 @@
++-------------------------+
+| copias_nova_interactive |
++-------------------------+
+|                       1 |
++-------------------------+
++-----------------------+--------------+
+| total_desarrolladoras | total_juegos |
++-----------------------+--------------+
+|                     5 |           10 |
++-----------------------+--------------+
++--------------------+--------------+---------------+-------------+
+| desarrolladora     | total_juegos | horas_totales | gasto_total |
++--------------------+--------------+---------------+-------------+
+| Quantum Vale       |            2 |            53 |       74.98 |
+| Byte Forge Studios |            2 |            68 |       69.98 |
+| Ironclad Works     |            2 |            72 |       64.98 |
+| Nova Interactive   |            2 |            57 |       64.98 |
+| Pixel Horizon      |            2 |            30 |       49.98 |
++--------------------+--------------+---------------+-------------+
++--------------------+------------------+-----------------------+
+| desarrolladora     | total_en_resumen | total_calculado_ahora |
++--------------------+------------------+-----------------------+
+| Byte Forge Studios |                2 |                     2 |
+| Ironclad Works     |                2 |                     2 |
+| Nova Interactive   |                2 |                     2 |
+| Pixel Horizon      |                2 |                     2 |
+| Quantum Vale       |                2 |                     2 |
++--------------------+------------------+-----------------------+
++----------------+-------------+
+| desarrolladora | gasto_total |
++----------------+-------------+
+| Quantum Vale   |       74.98 |
++----------------+-------------+
++--------------------+--------------------+------------+--------+
+| titulo             | desarrolladora     | genero     | precio |
++--------------------+--------------------+------------+--------+
+| Forja de Titanes   | Ironclad Works     | rpg        |  54.99 |
+| Circuito Roto      | Byte Forge Studios | accion     |  49.99 |
+| Salto Cuantico     | Quantum Vale       | accion     |  44.99 |
+| Ecos del Abismo    | Nova Interactive   | rpg        |  39.99 |
+| Reino de Cristal   | Pixel Horizon      | estrategia |  34.99 |
+| Liga Estelar       | Quantum Vale       | deportes   |  29.99 |
+| Frontera Salvaje   | Nova Interactive   | aventura   |  24.99 |
+| Sombras de Acero   | Byte Forge Studios | accion     |  19.99 |
+| Vientos del Norte  | Pixel Horizon      | aventura   |  14.99 |
+| Duelo de Campeones | Ironclad Works     | deportes   |   9.99 |
++--------------------+--------------------+------------+--------+
