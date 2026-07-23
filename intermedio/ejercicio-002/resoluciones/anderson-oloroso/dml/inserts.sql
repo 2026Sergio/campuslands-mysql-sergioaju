@@ -1,0 +1,30 @@
+INSERT INTO jugadores_battle_royale (nombre_jugador, region, nivel) VALUES
+('Carlos Mendoza', 'Latinoamerica', 45),
+('Ana Rodriguez', 'Norteamerica', 52),
+('Luis Martinez', 'Europa', 48),
+('Sofia Castillo', 'Asia', 60),
+('Jorge Morales', 'Brasil', 41),
+('Elena Gomez', 'Corea del Sur', 67),
+('Miguel Torres', 'China', 55),
+('Laura Hernandez', 'Latinoamerica', 39),
+('Andres Ramirez', 'Norteamerica', 58),
+('Valentina Perez', 'Europa', 50),
+('Daniel Castro', 'Asia', 63),
+('Camila Flores', 'Brasil', 44),
+('Fernando Lopez', 'Corea del Sur', 70),
+('Natalia Vargas', 'China', 57),
+('Sebastian Ruiz', 'Latinoamerica', 36);
+
+INSERT INTO ranking_battle_royale (jugador_id, puesto, puntos, temporada) VALUES
+(1, 1, 9850, 'Temporada 1'),
+(2, 2, 9420, 'Temporada 1'),
+(3, 3, 9100, 'Temporada 1'),
+(4, 4, 8875, 'Temporada 1'),
+(5, 5, 8500, 'Temporada 1'),
+(6, 6, 8250, 'Temporada 1'),
+(7, 7, 7900, 'Temporada 1'),
+(8, 8, 7650, 'Temporada 1'),
+(9, 9, 7300, 'Temporada 1'),
+(10, 10, 7050, 'Temporada 1'),
+(11, 11, 6800, 'Temporada 1'),
+(12, 12, 6500, 'Temporada 1');
