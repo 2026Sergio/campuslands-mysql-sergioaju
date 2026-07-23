@@ -1,0 +1,16 @@
+INSERT INTO kickboxing (nombre_peleador, categoria, victorias, derrotas, estado) VALUES
+('Carlos Mendoza', 'Peso Ligero', 18, 3, 'Activo'),
+('Andres Rodriguez', 'Peso Welter', 22, 5, 'Activo'),
+('Luis Martinez', 'Peso Medio', 15, 4, 'Activo'),
+('Jorge Morales', 'Peso Pesado', 12, 6, 'Activo'),
+('Miguel Torres', 'Peso Ligero', 20, 2, 'Activo'),
+('Daniel Castro', 'Peso Welter', 17, 7, 'Lesionado'),
+('Fernando Lopez', 'Peso Medio', 25, 3, 'Activo'),
+('Sebastian Ruiz', 'Peso Pesado', 14, 8, 'Activo'),
+('Alejandro Gomez', 'Peso Ligero', 9, 5, 'Retirado'),
+('Ricardo Perez', 'Peso Welter', 19, 4, 'Activo'),
+('Mateo Vargas', 'Peso Medio', 21, 6, 'Activo'),
+('Santiago Flores', 'Peso Pesado', 10, 9, 'Suspendido'),
+('Nicolas Herrera', 'Peso Ligero', 16, 3, 'Activo'),
+('Diego Ramirez', 'Peso Welter', 13, 8, 'Activo'),
+('Esteban Castillo', 'Peso Medio', 23, 5, 'Activo');
