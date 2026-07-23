@@ -1,0 +1,16 @@
+INSERT INTO carreras_urbanas (nombre_carrera, ciudad, cantidad_participantes, premio_total, estado) VALUES
+('Gran Premio Nocturno', 'Bogota', 24, 15000000.00, 'Finalizada'),
+('Carrera Urbana Central', 'Medellin', 18, 12000000.00, 'Finalizada'),
+('Desafio Metropolitano', 'Cali', 32, 18000000.00, 'Finalizada'),
+('Circuito Callejero', 'Barranquilla', 15, 9500000.00, 'Programada'),
+('Reto Urbano Extremo', 'Cartagena', 27, 22000000.00, 'Finalizada'),
+('Velocidad Capital', 'Bogota', 35, 25000000.00, 'Programada'),
+('Carrera del Pacifico', 'Buenaventura', 21, 11000000.00, 'Finalizada'),
+('Noche de Motores', 'Pereira', 19, 13500000.00, 'Finalizada'),
+('Gran Desafio Andino', 'Manizales', 28, 20000000.00, 'Programada'),
+('Circuito de la Costa', 'Santa Marta', 23, 16000000.00, 'Finalizada'),
+('Velocidad del Caribe', 'Cartagena', 31, 24000000.00, 'Programada'),
+('Rally Urbano del Valle', 'Cali', 26, 17500000.00, 'Finalizada'),
+('Desafio de los Llanos', 'Villavicencio', 17, 9000000.00, 'Programada'),
+('Gran Carrera del Norte', 'Bucaramanga', 29, 19500000.00, 'Finalizada'),
+('Festival de Velocidad', 'Medellin', 34, 28000000.00, 'Programada');
