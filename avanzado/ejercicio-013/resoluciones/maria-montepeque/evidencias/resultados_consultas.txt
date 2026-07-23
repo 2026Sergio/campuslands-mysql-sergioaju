@@ -1,0 +1,58 @@
++--------------------+---------------+------------------+
+| titulo             | director      | duracion_minutos |
++--------------------+---------------+------------------+
+| Amanecer Muerto    | Ivan Torres   |              118 |
+| Brote Nocturno     | Elena Vasquez |              112 |
+| Mente Fracturada   | Sara Blume    |              110 |
+| Ecos del Manicomio | Sara Blume    |              108 |
+| Sombra en el Atico | Elena Vasquez |              102 |
++--------------------+---------------+------------------+
++--------------------+----------------------------------+
+| titulo             | subgeneros                       |
++--------------------+----------------------------------+
+| Sombra en el Atico | ["paranormal", "casa_embrujada"] |
+| Brote Nocturno     | ["zombis", "paranormal"]         |
++--------------------+----------------------------------+
++--------------------+---------------+
+| titulo             | actor         |
++--------------------+---------------+
+| Amanecer Muerto    | Carla Nunez   |
+| Amanecer Muerto    | Ivan Torres   |
+| Amanecer Muerto    | Ruben Casal   |
+| Brote Nocturno     | Carla Nunez   |
+| Brote Nocturno     | Elena Vasquez |
+| Ecos del Manicomio | Diego Palma   |
+| Ecos del Manicomio | Marco Duval   |
+| Ecos del Manicomio | Sara Blume    |
+| Mente Fracturada   | Elena Vasquez |
+| Mente Fracturada   | Ivan Torres   |
+| Mente Fracturada   | Sara Blume    |
+| Sombra en el Atico | Diego Palma   |
+| Sombra en el Atico | Elena Vasquez |
+| Sombra en el Atico | Marco Duval   |
++--------------------+---------------+
++---------------+-----------------+
+| actor         | total_peliculas |
++---------------+-----------------+
+| Elena Vasquez |               3 |
+| Carla Nunez   |               2 |
+| Diego Palma   |               2 |
+| Ivan Torres   |               2 |
+| Marco Duval   |               2 |
+| Sara Blume    |               2 |
+| Ruben Casal   |               1 |
++---------------+-----------------+
++-----------------+----------------------------------------------------+
+| titulo          | premios                                            |
++-----------------+----------------------------------------------------+
+| Amanecer Muerto | [{"anio": 2021, "nombre": "Noche de Terror Fest"}] |
++-----------------+----------------------------------------------------+
++--------------------+----------------------+-------------+
+| titulo             | nombre_premio        | anio_premio |
++--------------------+----------------------+-------------+
+| Ecos del Manicomio | Premio Nocturno      |        2018 |
+| Amanecer Muerto    | Noche de Terror Fest |        2021 |
+| Sombra en el Atico | Festival Sombras     |        2022 |
+| Mente Fracturada   | Premio Nocturno      |        2023 |
+| Mente Fracturada   | Festival Sombras     |        2023 |
++--------------------+----------------------+-------------+
