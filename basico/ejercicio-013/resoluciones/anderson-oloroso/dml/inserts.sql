@@ -1,0 +1,16 @@
+INSERT INTO catalogo_peliculas_miedo (titulo, director, anio_estreno, subgenero, duracion_minutos, estado) VALUES
+('La Casa de las Sombras', 'Robert Miller', 2018, 'Terror sobrenatural', 112, 'Disponible'),
+('El Ultimo Susurro', 'Laura Bennett', 2020, 'Terror psicologico', 105, 'Disponible'),
+('Noche de Pesadilla', 'James Carter', 2017, 'Slasher', 98, 'No disponible'),
+('El Bosque Maldito', 'Michael Stone', 2019, 'Terror sobrenatural', 120, 'Disponible'),
+('La Muñeca Oscura', 'Emily Watson', 2021, 'Terror paranormal', 95, 'Disponible'),
+('Habitacion 13', 'David Anderson', 2016, 'Terror psicologico', 108, 'No disponible'),
+('El Ritual', 'Thomas Wilson', 2022, 'Terror sobrenatural', 115, 'Disponible'),
+('Sombras en el Espejo', 'Sarah Collins', 2018, 'Terror paranormal', 102, 'Disponible'),
+('La Criatura del Lago', 'Daniel Brooks', 2015, 'Criaturas', 125, 'No disponible'),
+('Gritos en la Oscuridad', 'Rachel Moore', 2020, 'Slasher', 100, 'Disponible'),
+('El Visitante Nocturno', 'Kevin Harris', 2023, 'Terror paranormal', 110, 'Disponible'),
+('Casa Abandonada', 'Andrew Scott', 2017, 'Terror sobrenatural', 118, 'No disponible'),
+('La Maldicion Antigua', 'Jessica Adams', 2021, 'Terror sobrenatural', 130, 'Disponible'),
+('El Juego Macabro', 'Brian Turner', 2019, 'Terror psicologico', 107, 'Disponible'),
+('Susurros del Cementerio', 'Olivia Martin', 2022, 'Terror paranormal', 99, 'No disponible');
