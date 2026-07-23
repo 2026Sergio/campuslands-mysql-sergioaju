@@ -19,6 +19,7 @@
 - CONSULTAS
 ![alt text](image-2.png)
 
+
 ## 🚀 Orden de Ejecución en Terminal
 
 ```bash
