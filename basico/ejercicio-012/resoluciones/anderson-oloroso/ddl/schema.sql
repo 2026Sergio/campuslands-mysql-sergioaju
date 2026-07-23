@@ -10,3 +10,6 @@ CREATE TABLE IF NOT EXISTS playlist_musical (
     estado VARCHAR(30) NOT NULL,
     PRIMARY KEY (playlist_id)
 );
+
+
+
