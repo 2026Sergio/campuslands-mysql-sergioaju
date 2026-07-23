@@ -1,0 +1,33 @@
+INSERT INTO biblioteca_gamer (titulo, genero, plataforma, anio_lanzamiento, estado) VALUES
+('Cyberpunk 2077', 'RPG', 'PC', 2020, 'Disponible'),
+('The Legend of Zelda Breath of the Wild', 'Aventura', 'Nintendo Switch', 2017, 'Disponible'),
+('God of War Ragnarok', 'Accion', 'PlayStation 5', 2022, 'Prestado'),
+('Halo Infinite', 'Shooter', 'Xbox Series X', 2021, 'Disponible'),
+('Elden Ring', 'RPG', 'PC', 2022, 'Prestado'),
+('Super Mario Odyssey', 'Plataformas', 'Nintendo Switch', 2017, 'Disponible'),
+('Red Dead Redemption 2', 'Accion', 'PlayStation 4', 2018, 'Prestado'),
+('Forza Horizon 5', 'Carreras', 'Xbox Series X', 2021, 'Disponible'),
+('Minecraft', 'Sandbox', 'PC', 2011, 'Disponible'),
+('Resident Evil Village', 'Terror', 'PlayStation 5', 2021, 'Prestado'),
+('Street Fighter 6', 'Peleas', 'PlayStation 5', 2023, 'Disponible'),
+('Baldurs Gate 3', 'RPG', 'PC', 2023, 'Prestado'),
+('Mario Kart 8 Deluxe', 'Carreras', 'Nintendo Switch', 2017, 'Disponible'),
+('Spider Man 2', 'Accion', 'PlayStation 5', 2023, 'Disponible'),
+('Starfield', 'RPG', 'Xbox Series X', 2023, 'Prestado');
+
+INSERT INTO prestamos_gamer (juego_id, nombre_usuario, fecha_prestamo, fecha_devolucion, estado) VALUES
+(3, 'Carlos Mendoza', '2026-01-05', '2026-01-12', 'Devuelto'),
+(5, 'Ana Rodriguez', '2026-01-08', NULL, 'Activo'),
+(7, 'Luis Martinez', '2026-01-10', '2026-01-17', 'Devuelto'),
+(10, 'Sofia Castillo', '2026-01-15', NULL, 'Activo'),
+(12, 'Jorge Morales', '2026-01-18', NULL, 'Activo'),
+(15, 'Elena Gomez', '2026-01-20', NULL, 'Activo'),
+(1, 'Miguel Torres', '2026-01-22', '2026-01-29', 'Devuelto'),
+(2, 'Laura Hernandez', '2026-01-25', '2026-02-01', 'Devuelto'),
+(4, 'Andres Ramirez', '2026-02-02', '2026-02-09', 'Devuelto'),
+(8, 'Valentina Perez', '2026-02-05', '2026-02-12', 'Devuelto'),
+(9, 'Daniel Castro', '2026-02-08', '2026-02-15', 'Devuelto'),
+(11, 'Camila Flores', '2026-02-10', '2026-02-17', 'Devuelto'),
+(13, 'Fernando Lopez', '2026-02-12', '2026-02-19', 'Devuelto'),
+(14, 'Natalia Vargas', '2026-02-15', '2026-02-22', 'Devuelto'),
+(6, 'Sebastian Ruiz', '2026-02-18', '2026-02-25', 'Devuelto');
