@@ -1,0 +1,16 @@
+INSERT INTO saga_ciencia_ficcion (titulo, director, fecha_estreno, presupuesto, estado) VALUES
+('Horizonte Estelar', 'James Anderson', '2018-03-15', 120000000.00, 'Estrenada'),
+('El Ultimo Planeta', 'Laura Bennett', '2019-07-22', 95000000.00, 'Estrenada'),
+('Viaje a Orion', 'Michael Carter', '2020-11-10', 150000000.00, 'Estrenada'),
+('Guardianes del Cosmos', 'Emily Watson', '2021-05-18', 180000000.00, 'Estrenada'),
+('La Frontera Espacial', 'David Miller', '2022-09-30', 110000000.00, 'Estrenada'),
+('Rebelion Galactica', 'Sarah Collins', '2023-02-14', 200000000.00, 'Estrenada'),
+('Planeta Desconocido', 'Robert Stone', '2023-10-05', 135000000.00, 'Estrenada'),
+('Cronicas del Futuro', 'Daniel Brooks', '2024-04-20', 175000000.00, 'Estrenada'),
+('El Imperio de Marte', 'Rachel Moore', '2024-08-16', 220000000.00, 'Estrenada'),
+('Destino Estelar', 'Kevin Harris', '2025-01-25', 160000000.00, 'Estrenada'),
+('La Ultima Colonia', 'Andrew Scott', '2025-06-12', 125000000.00, 'Estrenada'),
+('Horizonte Perdido', 'Jessica Adams', '2025-11-08', 190000000.00, 'Proxima'),
+('Mision Europa', 'Brian Turner', '2026-03-21', 210000000.00, 'Proxima'),
+('El Despertar Cosmico', 'Olivia Martin', '2026-07-17', 250000000.00, 'Proxima'),
+('Nueva Galaxia', 'Thomas Wilson', '2027-02-12', 300000000.00, 'Proxima');
