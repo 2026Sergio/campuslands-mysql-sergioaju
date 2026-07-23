@@ -1,0 +1,16 @@
+INSERT INTO playlist_musical (nombre_playlist, creador, genero_principal, cantidad_canciones, duracion_minutos, estado) VALUES
+('Viaje de Medianoche', 'Carlos Mendoza', 'Rock', 18, 76, 'Publica'),
+('Ritmos del Caribe', 'Ana Rodriguez', 'Reggaeton', 25, 92, 'Publica'),
+('Clasicos para Estudiar', 'Luis Martinez', 'Instrumental', 20, 85, 'Privada'),
+('Energia Total', 'Sofia Castillo', 'Pop', 30, 110, 'Publica'),
+('Noches de Jazz', 'Jorge Morales', 'Jazz', 15, 68, 'Publica'),
+('Vibras Electronicas', 'Elena Gomez', 'Electronica', 22, 95, 'Publica'),
+('Sonidos del Ayer', 'Miguel Torres', 'Rock', 28, 120, 'Privada'),
+('Playlist para Entrenar', 'Laura Hernandez', 'Pop', 35, 130, 'Publica'),
+('Romance Musical', 'Andres Ramirez', 'Balada', 16, 72, 'Publica'),
+('Fiesta sin Parar', 'Valentina Perez', 'Reggaeton', 40, 145, 'Publica'),
+('Acusticos de Siempre', 'Daniel Castro', 'Acustico', 19, 80, 'Privada'),
+('Viaje Espacial', 'Camila Flores', 'Electronica', 24, 105, 'Publica'),
+('Tardes de Blues', 'Fernando Lopez', 'Blues', 14, 63, 'Publica'),
+('Musica para Concentrarse', 'Natalia Vargas', 'Instrumental', 21, 90, 'Privada'),
+('Festival de Generos', 'Sebastian Ruiz', 'Variado', 32, 125, 'Publica');
