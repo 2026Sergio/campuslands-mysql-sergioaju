@@ -1,0 +1,33 @@
+INSERT INTO equipos_moba (nombre_equipo, region, entrenador) VALUES
+('Fenix Gaming', 'Latinoamerica', 'Carlos Mendoza'),
+('Titanes Esports', 'Norteamerica', 'James Wilson'),
+('Dragones Elite', 'Europa', 'Thomas Anderson'),
+('Lobos Gaming', 'Asia', 'Kenji Nakamura'),
+('Guardianes MOBA', 'Brasil', 'Rafael Santos'),
+('Reyes del Nexus', 'Corea del Sur', 'Park Min-Jae'),
+('Tormenta Digital', 'China', 'Li Wei'),
+('Halcones Pro', 'Europa', 'Marco Rossi'),
+('Panteras Gaming', 'Latinoamerica', 'Luis Hernandez'),
+('Imperio Esports', 'Norteamerica', 'Michael Johnson'),
+('Cometas Gaming', 'Asia', 'Yuki Tanaka'),
+('Guerreros del Rift', 'Brasil', 'Gabriel Oliveira'),
+('Legion Pro', 'Corea del Sur', 'Choi Sung-Hoon'),
+('Estrellas MOBA', 'China', 'Zhang Wei'),
+('Vanguardia Gaming', 'Latinoamerica', 'Andres Ramirez');
+
+INSERT INTO jugadores_moba (equipo_id, nombre_jugador, rol) VALUES
+(1, 'Diego Torres', 'Top'),
+(2, 'Ethan Brooks', 'Jungla'),
+(3, 'Lukas Schmidt', 'Mid'),
+(4, 'Hiroshi Sato', 'ADC'),
+(5, 'Mateus Silva', 'Soporte'),
+(6, 'Kim Ji-Hoon', 'Top'),
+(7, 'Chen Long', 'Jungla'),
+(8, 'Alessandro Bianchi', 'Mid'),
+(9, 'Juan Martinez', 'ADC'),
+(10, 'Ryan Cooper', 'Soporte'),
+(11, 'Akira Yamamoto', 'Top'),
+(12, 'Lucas Ferreira', 'Jungla'),
+(13, 'Lee Dong-Hyun', 'Mid'),
+(14, 'Wang Jun', 'ADC'),
+(15, 'Sebastian Gomez', 'Soporte');
