@@ -1,0 +1,16 @@
+INSERT INTO taller_mecanico_motos (nombre_cliente, marca_moto, modelo_moto, tipo_servicio, costo, estado) VALUES
+('Carlos Mendoza', 'Yamaha', 'MT-07', 'Cambio de aceite', 180000.00, 'Completado'),
+('Ana Rodriguez', 'Honda', 'CB650R', 'Revision de frenos', 350000.00, 'En proceso'),
+('Luis Martinez', 'Kawasaki', 'Ninja 400', 'Cambio de llantas', 850000.00, 'Completado'),
+('Sofia Castillo', 'Suzuki', 'GSX-S750', 'Mantenimiento general', 620000.00, 'Pendiente'),
+('Jorge Morales', 'Ducati', 'Monster', 'Revision de motor', 1200000.00, 'En proceso'),
+('Elena Gomez', 'BMW', 'G 310 R', 'Cambio de bateria', 480000.00, 'Completado'),
+('Miguel Torres', 'KTM', 'Duke 390', 'Cambio de aceite', 190000.00, 'Completado'),
+('Laura Hernandez', 'Yamaha', 'R1', 'Ajuste de suspension', 750000.00, 'Pendiente'),
+('Andres Ramirez', 'Honda', 'Africa Twin', 'Mantenimiento general', 900000.00, 'En proceso'),
+('Valentina Perez', 'Kawasaki', 'Z900', 'Revision de frenos', 380000.00, 'Completado'),
+('Daniel Castro', 'Suzuki', 'V-Strom 650', 'Cambio de llantas', 780000.00, 'Pendiente'),
+('Camila Flores', 'Ducati', 'Panigale V2', 'Revision de motor', 1450000.00, 'En proceso'),
+('Fernando Lopez', 'BMW', 'F 850 GS', 'Cambio de bateria', 520000.00, 'Completado'),
+('Natalia Vargas', 'KTM', '1290 Super Duke', 'Mantenimiento general', 1100000.00, 'Pendiente'),
+('Sebastian Ruiz', 'Royal Enfield', 'Interceptor 650', 'Cambio de aceite', 175000.00, 'Completado');
