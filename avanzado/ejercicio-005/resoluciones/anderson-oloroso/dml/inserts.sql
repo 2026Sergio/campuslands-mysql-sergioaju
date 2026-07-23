@@ -1,0 +1,25 @@
+INSERT INTO taller_mecanico_motos (
+    nombre_cliente,
+    telefono,
+    marca_moto,
+    modelo_moto,
+    tipo_servicio,
+    costo,
+    estado,
+    fecha_servicio
+) VALUES
+('Carlos Mendoza', '3001234567', 'Yamaha', 'MT-07', 'Cambio de aceite', 180000.00, 'Completado', '2026-01-05'),
+('Ana Rodriguez', '3012345678', 'Honda', 'CB650R', 'Revision de frenos', 350000.00, 'En proceso', '2026-01-07'),
+('Luis Martinez', '3023456789', 'Kawasaki', 'Ninja 400', 'Cambio de llantas', 850000.00, 'Completado', '2026-01-10'),
+('Sofia Castillo', '3034567890', 'Suzuki', 'GSX-S750', 'Mantenimiento general', 620000.00, 'Pendiente', '2026-01-12'),
+('Jorge Morales', '3045678901', 'Ducati', 'Monster', 'Revision de motor', 1200000.00, 'En proceso', '2026-01-15'),
+('Elena Gomez', '3056789012', 'BMW', 'G 310 R', 'Cambio de bateria', 480000.00, 'Completado', '2026-01-18'),
+('Miguel Torres', '3067890123', 'KTM', 'Duke 390', 'Cambio de aceite', 190000.00, 'Completado', '2026-01-20'),
+('Laura Hernandez', '3078901234', 'Yamaha', 'R1', 'Ajuste de suspension', 750000.00, 'Pendiente', '2026-01-22'),
+('Andres Ramirez', '3089012345', 'Honda', 'Africa Twin', 'Mantenimiento general', 900000.00, 'En proceso', '2026-01-25'),
+('Valentina Perez', '3090123456', 'Kawasaki', 'Z900', 'Revision de frenos', 380000.00, 'Completado', '2026-01-27'),
+('Daniel Castro', '3101234567', 'Suzuki', 'V-Strom 650', 'Cambio de llantas', 780000.00, 'Pendiente', '2026-02-01'),
+('Camila Flores', '3112345678', 'Ducati', 'Panigale V2', 'Revision de motor', 1450000.00, 'En proceso', '2026-02-04'),
+('Fernando Lopez', '3123456789', 'BMW', 'F 850 GS', 'Cambio de bateria', 520000.00, 'Completado', '2026-02-07'),
+('Natalia Vargas', '3134567890', 'KTM', '1290 Super Duke', 'Mantenimiento general', 1100000.00, 'Pendiente', '2026-02-10'),
+('Sebastian Ruiz', '3145678901', 'Royal Enfield', 'Interceptor 650', 'Cambio de aceite', 175000.00, 'Completado', '2026-02-13');
