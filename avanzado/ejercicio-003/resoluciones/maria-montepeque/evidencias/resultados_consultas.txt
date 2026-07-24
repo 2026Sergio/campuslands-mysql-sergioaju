@@ -1,0 +1,66 @@
++-------------+-------------------+--------+------------+
+| codigo_skin | nombre_skin       | precio | categoria  |
++-------------+-------------------+--------+------------+
+| SK-009      | Fantasma Artico   |  95.00 | Legendaria |
+| SK-001      | Dragon Carmesi    |  89.99 | Legendaria |
+| SK-007      | Oro Imperial      |  74.25 | Legendaria |
+| SK-003      | Furia Ardiente    |  55.00 | Premium    |
+| SK-004      | Filo Glacial      |  45.00 | Premium    |
+| SK-006      | Neon Nocturno     |  39.90 | Media      |
+| SK-011      | Relampago Purpura |  27.80 | Media      |
+| SK-002      | Sombra Urbana     |  24.50 | Media      |
+| SK-012      | Pulso Digital     |  15.40 | Media      |
+| SK-008      | Ceniza de Guerra  |  12.75 | Media      |
+| SK-005      | Camuflaje Selva   |   3.99 | Economica  |
+| SK-010      | Grafiti Toxico    |   2.50 | Economica  |
++-------------+-------------------+--------+------------+
++-------------+-----------------+--------------------+
+| codigo_skin | fecha_obtencion | dias_en_inventario |
++-------------+-----------------+--------------------+
+| SK-010      | 2025-04-10      |                469 |
+| SK-004      | 2025-06-18      |                400 |
+| SK-005      | 2025-07-20      |                368 |
+| SK-001      | 2025-08-15      |                342 |
+| SK-007      | 2025-09-05      |                321 |
+| SK-012      | 2025-09-22      |                304 |
+| SK-002      | 2025-10-02      |                294 |
+| SK-003      | 2026-01-10      |                194 |
+| SK-006      | 2026-03-01      |                144 |
+| SK-008      | 2026-05-28      |                 56 |
+| SK-009      | 2026-07-15      |                  8 |
+| SK-011      | 2026-07-19      |                  4 |
++-------------+-----------------+--------------------+
++-------------+-------------+
+| propietario | valor_total |
++-------------+-------------+
+| NovaStrike  |      169.49 |
+| ZaraDrop    |       97.50 |
+| KairoShot   |       88.89 |
+| LunaFrag    |       87.00 |
+| MikaSurge   |       43.20 |
++-------------+-------------+
++-------------+-----------------+--------+------------+
+| codigo_skin | nombre_skin     | precio | categoria  |
++-------------+-----------------+--------+------------+
+| SK-009      | Fantasma Artico |  95.00 | Legendaria |
+| SK-001      | Dragon Carmesi  |  89.99 | Legendaria |
+| SK-007      | Oro Imperial    |  74.25 | Legendaria |
+| SK-003      | Furia Ardiente  |  55.00 | Premium    |
+| SK-004      | Filo Glacial    |  45.00 | Premium    |
++-------------+-----------------+--------+------------+
++-------------+-------------+
+| propietario | valor_total |
++-------------+-------------+
+| NovaStrike  |      169.49 |
++-------------+-------------+
++-------------+-----------------+-----------------+--------------------+
+| codigo_skin | nombre_skin     | fecha_obtencion | dias_en_inventario |
++-------------+-----------------+-----------------+--------------------+
+| SK-010      | Grafiti Toxico  | 2025-04-10      |                469 |
+| SK-004      | Filo Glacial    | 2025-06-18      |                400 |
+| SK-005      | Camuflaje Selva | 2025-07-20      |                368 |
+| SK-001      | Dragon Carmesi  | 2025-08-15      |                342 |
+| SK-007      | Oro Imperial    | 2025-09-05      |                321 |
+| SK-012      | Pulso Digital   | 2025-09-22      |                304 |
+| SK-002      | Sombra Urbana   | 2025-10-02      |                294 |
++-------------+-----------------+-----------------+--------------------+
