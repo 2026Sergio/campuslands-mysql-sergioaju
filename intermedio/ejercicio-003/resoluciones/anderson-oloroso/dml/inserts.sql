@@ -1,0 +1,33 @@
+INSERT INTO skins_shooter (nombre_skin, rareza, tipo_arma, precio, estado) VALUES
+('Dragon de Fuego', 'Legendaria', 'Rifle de asalto', 2500.00, 'Disponible'),
+('Fantasma Urbano', 'Epica', 'Subfusil', 1800.00, 'Disponible'),
+('Cazador Nocturno', 'Rara', 'Francotirador', 950.00, 'Disponible'),
+('Guerrero Neon', 'Legendaria', 'Rifle de asalto', 2800.00, 'Disponible'),
+('Comando Desertico', 'Comun', 'Escopeta', 450.00, 'Agotada'),
+('Samurai Rojo', 'Epica', 'Katana', 2100.00, 'Disponible'),
+('Agente Sombra', 'Rara', 'Pistola', 750.00, 'Disponible'),
+('Guardian Galactico', 'Legendaria', 'Rifle de precision', 3200.00, 'Disponible'),
+('Mercenario Arctic', 'Comun', 'Rifle de asalto', 500.00, 'Disponible'),
+('Cyber Ninja', 'Epica', 'Subfusil', 1950.00, 'Agotada'),
+('Pirata de Acero', 'Rara', 'Escopeta', 850.00, 'Disponible'),
+('Comando Volcanico', 'Legendaria', 'Rifle de asalto', 2900.00, 'Disponible'),
+('Rey de Hielo', 'Epica', 'Francotirador', 2200.00, 'Disponible'),
+('Soldado Dorado', 'Legendaria', 'Pistola', 2400.00, 'Disponible'),
+('Guerrero Tribal', 'Comun', 'Subfusil', 400.00, 'Agotada');
+
+INSERT INTO inventario_skins_shooter (skin_id, cantidad) VALUES
+(1, 12),
+(2, 8),
+(3, 15),
+(4, 6),
+(5, 3),
+(6, 10),
+(7, 18),
+(8, 5),
+(9, 20),
+(10, 4),
+(11, 14),
+(12, 7),
+(13, 9),
+(14, 11),
+(15, 2);
