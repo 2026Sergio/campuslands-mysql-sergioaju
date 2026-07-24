@@ -1,0 +1,52 @@
++--------------+----------------+---------------+------------+---------------+
+| numero_orden | cliente        | tipo_servicio | estado     | fecha_ingreso |
++--------------+----------------+---------------+------------+---------------+
+| OT-2026-009  | Paola Gomez    | revision      | pendiente  | 2026-07-20    |
+| OT-2026-007  | Sofia Mendez   | reparacion    | en_proceso | 2026-07-18    |
+| OT-2026-006  | Ana Torres     | mantenimiento | pendiente  | 2026-07-15    |
+| OT-2026-004  | Luis Fernandez | reparacion    | en_proceso | 2026-07-05    |
++--------------+----------------+---------------+------------+---------------+
++--------------+----------------+--------+
+| numero_orden | cliente        | costo  |
++--------------+----------------+--------+
+| OT-2026-004  | Luis Fernandez | 275.75 |
+| OT-2026-006  | Ana Torres     |  95.25 |
+| OT-2026-010  | Sofia Mendez   |  90.00 |
+| OT-2026-001  | Carlos Reyes   |  85.00 |
+| OT-2026-009  | Paola Gomez    |  65.00 |
+| OT-2026-005  | Paola Gomez    |  60.00 |
++--------------+----------------+--------+
++--------------+---------------+---------------+--------+
+| numero_orden | mecanico      | tipo_servicio | costo  |
++--------------+---------------+---------------+--------+
+| OT-2026-002  | Julio Sanchez | reparacion    | 320.50 |
+| OT-2026-001  | Julio Sanchez | mantenimiento |  85.00 |
+| OT-2026-009  | Julio Sanchez | revision      |  65.00 |
+| OT-2026-005  | Julio Sanchez | revision      |  60.00 |
++--------------+---------------+---------------+--------+
++--------------+----------------+---------------+--------+
+| numero_orden | cliente        | tipo_servicio | costo  |
++--------------+----------------+---------------+--------+
+| OT-2026-007  | Sofia Mendez   | reparacion    | 410.00 |
+| OT-2026-002  | Ana Torres     | reparacion    | 320.50 |
+| OT-2026-004  | Luis Fernandez | reparacion    | 275.75 |
+| OT-2026-006  | Ana Torres     | mantenimiento |  95.25 |
+| OT-2026-010  | Sofia Mendez   | mantenimiento |  90.00 |
++--------------+----------------+---------------+--------+
++---------------+---------------+----------------+
+| tipo_servicio | total_ordenes | costo_promedio |
++---------------+---------------+----------------+
+| reparacion    |             3 |         335.42 |
+| mantenimiento |             3 |          90.08 |
+| revision      |             2 |          62.50 |
+| diagnostico   |             2 |          37.75 |
++---------------+---------------+----------------+
++----------------+---------------+
+| cliente        | total_ordenes |
++----------------+---------------+
+| Carlos Reyes   |             2 |
+| Ana Torres     |             2 |
+| Luis Fernandez |             2 |
+| Paola Gomez    |             2 |
+| Sofia Mendez   |             2 |
++----------------+---------------+
