@@ -1,0 +1,16 @@
+INSERT INTO garaje_motos (marca, modelo, cilindraje, anio, precio, estado) VALUES
+('Yamaha', 'MT-07', 689, 2023, 42000000.00, 'Disponible'),
+('Honda', 'CB650R', 649, 2022, 48500000.00, 'Disponible'),
+('Kawasaki', 'Ninja 400', 399, 2023, 32000000.00, 'Disponible'),
+('Suzuki', 'GSX-S750', 749, 2021, 39000000.00, 'Vendida'),
+('Ducati', 'Monster', 937, 2022, 68000000.00, 'Disponible'),
+('BMW', 'G 310 R', 313, 2023, 28500000.00, 'Disponible'),
+('KTM', 'Duke 390', 373, 2024, 30500000.00, 'Disponible'),
+('Yamaha', 'R1', 998, 2021, 92000000.00, 'Vendida'),
+('Honda', 'Africa Twin', 1084, 2022, 79000000.00, 'Disponible'),
+('Kawasaki', 'Z900', 948, 2023, 57000000.00, 'Disponible'),
+('Suzuki', 'V-Strom 650', 645, 2020, 36500000.00, 'Vendida'),
+('Ducati', 'Panigale V2', 955, 2023, 89000000.00, 'Disponible'),
+('BMW', 'F 850 GS', 853, 2021, 73500000.00, 'Disponible'),
+('KTM', '1290 Super Duke', 1301, 2022, 98000000.00, 'Disponible'),
+('Royal Enfield', 'Interceptor 650', 648, 2024, 27000000.00, 'Disponible');
