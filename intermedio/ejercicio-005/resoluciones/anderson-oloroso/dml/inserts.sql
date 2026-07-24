@@ -1,0 +1,33 @@
+INSERT INTO clientes_taller (nombre_cliente, telefono, ciudad) VALUES
+('Carlos Mendoza', '3001234567', 'Bogota'),
+('Ana Rodriguez', '3012345678', 'Medellin'),
+('Luis Martinez', '3023456789', 'Cali'),
+('Sofia Castillo', '3034567890', 'Barranquilla'),
+('Jorge Morales', '3045678901', 'Cartagena'),
+('Elena Gomez', '3056789012', 'Pereira'),
+('Miguel Torres', '3067890123', 'Manizales'),
+('Laura Hernandez', '3078901234', 'Bogota'),
+('Andres Ramirez', '3089012345', 'Medellin'),
+('Valentina Perez', '3090123456', 'Cali'),
+('Daniel Castro', '3101234567', 'Bucaramanga'),
+('Camila Flores', '3112345678', 'Santa Marta'),
+('Fernando Lopez', '3123456789', 'Bogota'),
+('Natalia Vargas', '3134567890', 'Medellin'),
+('Sebastian Ruiz', '3145678901', 'Cali');
+
+INSERT INTO servicios_taller_motos (cliente_id, marca_moto, modelo_moto, tipo_servicio, costo, estado) VALUES
+(1, 'Yamaha', 'MT-07', 'Cambio de aceite', 180000.00, 'Completado'),
+(2, 'Honda', 'CB650R', 'Revision de frenos', 350000.00, 'En proceso'),
+(3, 'Kawasaki', 'Ninja 400', 'Cambio de llantas', 850000.00, 'Completado'),
+(4, 'Suzuki', 'GSX-S750', 'Mantenimiento general', 620000.00, 'Pendiente'),
+(5, 'Ducati', 'Monster', 'Revision de motor', 1200000.00, 'En proceso'),
+(6, 'BMW', 'G 310 R', 'Cambio de bateria', 480000.00, 'Completado'),
+(7, 'KTM', 'Duke 390', 'Cambio de aceite', 190000.00, 'Completado'),
+(8, 'Yamaha', 'R1', 'Ajuste de suspension', 750000.00, 'Pendiente'),
+(9, 'Honda', 'Africa Twin', 'Mantenimiento general', 900000.00, 'En proceso'),
+(10, 'Kawasaki', 'Z900', 'Revision de frenos', 380000.00, 'Completado'),
+(11, 'Suzuki', 'V-Strom 650', 'Cambio de llantas', 780000.00, 'Pendiente'),
+(12, 'Ducati', 'Panigale V2', 'Revision de motor', 1450000.00, 'En proceso'),
+(13, 'BMW', 'F 850 GS', 'Cambio de bateria', 520000.00, 'Completado'),
+(14, 'KTM', '1290 Super Duke', 'Mantenimiento general', 1100000.00, 'Pendiente'),
+(15, 'Royal Enfield', 'Interceptor 650', 'Cambio de aceite', 175000.00, 'Completado');
