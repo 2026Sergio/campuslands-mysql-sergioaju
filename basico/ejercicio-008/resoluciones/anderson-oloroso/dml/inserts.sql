@@ -1,0 +1,16 @@
+INSERT INTO futbol_sala (nombre_jugador, equipo, posicion, goles, asistencias, estado) VALUES
+('Carlos Mendoza', 'Titanes Futsal', 'Ala', 12, 8, 'Activo'),
+('Andres Rodriguez', 'Guerreros Sala', 'Pivot', 18, 5, 'Activo'),
+('Luis Martinez', 'Halcones Futsal', 'Cierre', 7, 10, 'Activo'),
+('Jorge Morales', 'Dragones Sala', 'Portero', 1, 3, 'Activo'),
+('Miguel Torres', 'Titanes Futsal', 'Pivot', 15, 7, 'Activo'),
+('Daniel Castro', 'Guerreros Sala', 'Ala', 10, 12, 'Lesionado'),
+('Fernando Lopez', 'Halcones Futsal', 'Pivot', 20, 6, 'Activo'),
+('Sebastian Ruiz', 'Dragones Sala', 'Ala', 9, 11, 'Activo'),
+('Alejandro Gomez', 'Titanes Futsal', 'Cierre', 5, 9, 'Activo'),
+('Ricardo Perez', 'Guerreros Sala', 'Portero', 0, 4, 'Activo'),
+('Mateo Vargas', 'Halcones Futsal', 'Ala', 14, 8, 'Suspendido'),
+('Santiago Flores', 'Dragones Sala', 'Pivot', 16, 5, 'Activo'),
+('Nicolas Herrera', 'Titanes Futsal', 'Portero', 0, 6, 'Activo'),
+('Diego Ramirez', 'Guerreros Sala', 'Cierre', 8, 13, 'Activo'),
+('Esteban Castillo', 'Halcones Futsal', 'Ala', 11, 10, 'Activo');
