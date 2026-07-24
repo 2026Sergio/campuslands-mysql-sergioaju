@@ -1,0 +1,16 @@
+INSERT INTO jugadoresMOBA (nombre, categoria, blindaje) VALUES
+('Faker', 'Profesional', 62.78),
+('Caps', 'Profesional', 80.75),
+('Rookie', 'Semi-Profesional', 62.36),
+('ShowMaker', 'Amateur', 40.01),
+('Chovy', 'Amateur', 64.67),
+('Scout', 'Semi-Profesional', 26.56),
+('Knight', 'Profesional', 68.21),
+('Byme', 'Amateur', 45.63),
+('Perkz', 'Amateur', 69.72),
+('Jankos', 'Semi-Profesional', 94.05),
+('Impact', 'Semi-Profesional', 35.73),
+('CoreJJ', 'Amateur', 58.39),
+('Doublelift', 'Leyenda', 70.34),
+('Bjergsen', 'Leyenda', 87.05),
+('Sneaky', 'Semi-Profesional', 94.31);
