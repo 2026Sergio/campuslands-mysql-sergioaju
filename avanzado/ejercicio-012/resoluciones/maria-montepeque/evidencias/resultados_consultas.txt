@@ -1,0 +1,102 @@
++--------------------+----------------+---------------+---------------------+
+| titulo             | reproducciones | posicion_rank | posicion_dense_rank |
++--------------------+----------------+---------------+---------------------+
+| Ritmo del Barrio   |          31200 |             1 |                   1 |
+| Solo Contigo       |          27500 |             2 |                   2 |
+| Corazon de Vinilo  |          22300 |             3 |                   3 |
+| Estrella Fugaz     |          22300 |             3 |                   3 |
+| Fuego Cruzado      |          19500 |             5 |                   4 |
+| Bajo la Lluvia     |          18900 |             6 |                   5 |
+| Luces de Neon      |          15400 |             7 |                   6 |
+| Vibra Nocturna     |          12700 |             8 |                   7 |
+| Eco de Ayer        |           9800 |             9 |                   8 |
+| Tormenta Electrica |           9800 |             9 |                   8 |
+| Motor en Marcha    |           7600 |            11 |                   9 |
+| Noche de Saxo      |           4300 |            12 |                  10 |
+| Cafe y Piano       |           3100 |            13 |                  11 |
++--------------------+----------------+---------------+---------------------+
++-------------+--------------------+----------------+-----------------------+
+| genero      | titulo             | reproducciones | posicion_en_su_genero |
++-------------+--------------------+----------------+-----------------------+
+| pop         | Corazon de Vinilo  |          22300 |                     1 |
+| pop         | Estrella Fugaz     |          22300 |                     1 |
+| pop         | Bajo la Lluvia     |          18900 |                     3 |
+| pop         | Eco de Ayer        |           9800 |                     4 |
+| rock        | Tormenta Electrica |           9800 |                     1 |
+| rock        | Motor en Marcha    |           7600 |                     2 |
+| electronica | Luces de Neon      |          15400 |                     1 |
+| electronica | Vibra Nocturna     |          12700 |                     2 |
+| reggaeton   | Ritmo del Barrio   |          31200 |                     1 |
+| reggaeton   | Solo Contigo       |          27500 |                     2 |
+| reggaeton   | Fuego Cruzado      |          19500 |                     3 |
+| jazz        | Noche de Saxo      |           4300 |                     1 |
+| jazz        | Cafe y Piano       |           3100 |                     2 |
++-------------+--------------------+----------------+-----------------------+
++--------------------+----------------+-------------------------+--------------------------+
+| titulo             | reproducciones | reproducciones_anterior | reproducciones_siguiente |
++--------------------+----------------+-------------------------+--------------------------+
+| Ritmo del Barrio   |          31200 |                    NULL |                    27500 |
+| Solo Contigo       |          27500 |                   31200 |                    22300 |
+| Corazon de Vinilo  |          22300 |                   27500 |                    22300 |
+| Estrella Fugaz     |          22300 |                   22300 |                    19500 |
+| Fuego Cruzado      |          19500 |                   22300 |                    18900 |
+| Bajo la Lluvia     |          18900 |                   19500 |                    15400 |
+| Luces de Neon      |          15400 |                   18900 |                    12700 |
+| Vibra Nocturna     |          12700 |                   15400 |                     9800 |
+| Eco de Ayer        |           9800 |                   12700 |                     9800 |
+| Tormenta Electrica |           9800 |                    9800 |                     7600 |
+| Motor en Marcha    |           7600 |                    9800 |                     4300 |
+| Noche de Saxo      |           4300 |                    7600 |                     3100 |
+| Cafe y Piano       |           3100 |                    4300 |                     NULL |
++--------------------+----------------+-------------------------+--------------------------+
++--------------------+----------------+-----------+---------------+
+| titulo             | reproducciones | acumulado | pct_acumulado |
++--------------------+----------------+-----------+---------------+
+| Ritmo del Barrio   |          31200 |     31200 |         15.26 |
+| Solo Contigo       |          27500 |     58700 |         28.72 |
+| Corazon de Vinilo  |          22300 |     81000 |         39.63 |
+| Estrella Fugaz     |          22300 |    103300 |         50.54 |
+| Fuego Cruzado      |          19500 |    122800 |         60.08 |
+| Bajo la Lluvia     |          18900 |    141700 |         69.32 |
+| Luces de Neon      |          15400 |    157100 |         76.86 |
+| Vibra Nocturna     |          12700 |    169800 |         83.07 |
+| Eco de Ayer        |           9800 |    179600 |         87.87 |
+| Tormenta Electrica |           9800 |    189400 |         92.66 |
+| Motor en Marcha    |           7600 |    197000 |         96.38 |
+| Noche de Saxo      |           4300 |    201300 |         98.48 |
+| Cafe y Piano       |           3100 |    204400 |        100.00 |
++--------------------+----------------+-----------+---------------+
++--------------------+------------------+----------------+------------------+
+| titulo             | anio_lanzamiento | reproducciones | promedio_movil_3 |
++--------------------+------------------+----------------+------------------+
+| Noche de Saxo      |             2020 |           4300 |          4300.00 |
+| Cafe y Piano       |             2020 |           3100 |          3700.00 |
+| Tormenta Electrica |             2021 |           9800 |          5733.33 |
+| Motor en Marcha    |             2021 |           7600 |          6833.33 |
+| Corazon de Vinilo  |             2022 |          22300 |         13233.33 |
+| Bajo la Lluvia     |             2022 |          18900 |         16266.67 |
+| Luces de Neon      |             2023 |          15400 |         18866.67 |
+| Vibra Nocturna     |             2023 |          12700 |         15666.67 |
+| Eco de Ayer        |             2024 |           9800 |         12633.33 |
+| Ritmo del Barrio   |             2024 |          31200 |         17900.00 |
+| Solo Contigo       |             2024 |          27500 |         22833.33 |
+| Fuego Cruzado      |             2025 |          19500 |         26066.67 |
+| Estrella Fugaz     |             2025 |          22300 |         23100.00 |
++--------------------+------------------+----------------+------------------+
++--------------------+----------------+---------------------+
+| titulo             | reproducciones | cuartil_popularidad |
++--------------------+----------------+---------------------+
+| Ritmo del Barrio   |          31200 |                   1 |
+| Solo Contigo       |          27500 |                   1 |
+| Corazon de Vinilo  |          22300 |                   1 |
+| Estrella Fugaz     |          22300 |                   1 |
+| Fuego Cruzado      |          19500 |                   2 |
+| Bajo la Lluvia     |          18900 |                   2 |
+| Luces de Neon      |          15400 |                   2 |
+| Vibra Nocturna     |          12700 |                   3 |
+| Eco de Ayer        |           9800 |                   3 |
+| Tormenta Electrica |           9800 |                   3 |
+| Motor en Marcha    |           7600 |                   4 |
+| Noche de Saxo      |           4300 |                   4 |
+| Cafe y Piano       |           3100 |                   4 |
++--------------------+----------------+---------------------+
