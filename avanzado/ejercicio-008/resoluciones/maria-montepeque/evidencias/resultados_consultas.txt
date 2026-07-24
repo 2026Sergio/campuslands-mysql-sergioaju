@@ -1,0 +1,56 @@
+mysql: [Warning] Using a password on the command line interface can be insecure.
++--------------+------------------+-------+------------+
+| jugador      | equipo           | goles | estado     |
++--------------+------------------+-------+------------+
+| LunaGoal     | Cobras FS        |    15 | activo     |
+| NovaKick     | Halcones Sala    |    12 | activo     |
+| RexPivot     | Titanes Cubierta |    10 | lesionado  |
+| ZaraFive     | Halcones Sala    |     8 | activo     |
+| ByteAla      | Cobras FS        |     6 | suspendido |
+| KairoCierre  | Rayos Interior   |     5 | activo     |
+| TahoAla      | Titanes Cubierta |     4 | activo     |
+| SkyeCierre   | Cobras FS        |     3 | activo     |
+| MikaWall     | Halcones Sala    |     0 | activo     |
+| PixelPortero | Rayos Interior   |     0 | activo     |
++--------------+------------------+-------+------------+
++------------------+---------------+
+| equipo           | goles_totales |
++------------------+---------------+
+| Cobras FS        |            24 |
+| Halcones Sala    |            20 |
+| Titanes Cubierta |            14 |
+| Rayos Interior   |             5 |
++------------------+---------------+
+
+=== Consultas 3-6 (inspeccion de permisos) como root ===
+mysql: [Warning] Using a password on the command line interface can be insecure.
++---------------------------------------------------------------------------------------------------+
+| Grants for rol_lector_futbol_sala@%                                                               |
++---------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO `rol_lector_futbol_sala`@`%`                                                |
+| GRANT SELECT ON `campuslands_mysql`.`equipos_futbol_sala_roles` TO `rol_lector_futbol_sala`@`%`   |
+| GRANT SELECT ON `campuslands_mysql`.`jugadores_futbol_sala_roles` TO `rol_lector_futbol_sala`@`%` |
++---------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------+
+| Grants for rol_editor_futbol_sala@%                                                                               |
++-------------------------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO `rol_editor_futbol_sala`@`%`                                                                |
+| GRANT SELECT, INSERT, UPDATE ON `campuslands_mysql`.`equipos_futbol_sala_roles` TO `rol_editor_futbol_sala`@`%`   |
+| GRANT SELECT, INSERT, UPDATE ON `campuslands_mysql`.`jugadores_futbol_sala_roles` TO `rol_editor_futbol_sala`@`%` |
++-------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------+
+| Grants for lector_demo_fs@%                                                               |
++-------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO `lector_demo_fs`@`%`                                                |
+| GRANT SELECT ON `campuslands_mysql`.`equipos_futbol_sala_roles` TO `lector_demo_fs`@`%`   |
+| GRANT SELECT ON `campuslands_mysql`.`jugadores_futbol_sala_roles` TO `lector_demo_fs`@`%` |
+| GRANT `rol_lector_futbol_sala`@`%` TO `lector_demo_fs`@`%`                                |
++-------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
+| Grants for editor_demo_fs@%                                                                               |
++-----------------------------------------------------------------------------------------------------------+
+| GRANT USAGE ON *.* TO `editor_demo_fs`@`%`                                                                |
+| GRANT SELECT, INSERT, UPDATE ON `campuslands_mysql`.`equipos_futbol_sala_roles` TO `editor_demo_fs`@`%`   |
+| GRANT SELECT, INSERT, UPDATE ON `campuslands_mysql`.`jugadores_futbol_sala_roles` TO `editor_demo_fs`@`%` |
+| GRANT `rol_editor_futbol_sala`@`%` TO `editor_demo_fs`@`%`                                                |
++-----------------------------------------------------------------------------------------------------------+
