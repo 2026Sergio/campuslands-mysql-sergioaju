@@ -1,0 +1,62 @@
++-----------------+-----------------+----------------+------------------+
+| escuadra        | mapa            | posicion_final | puntos_obtenidos |
++-----------------+-----------------+----------------+------------------+
+| Eclipse Squad   | NULL            |           NULL |             NULL |
+| Escuadra Fenix  | Isla Norte      |              1 |              350 |
+| Escuadra Fenix  | Desierto Rojo   |              3 |              220 |
+| Escuadra Fenix  | Isla Norte      |              2 |              280 |
+| Lobos Nocturnos | Ciudad Fantasma |              5 |              120 |
+| Lobos Nocturnos | Desierto Rojo   |              1 |              400 |
+| Sombra Real     | Desierto Rojo   |              6 |               90 |
+| Sombra Real     | Ciudad Fantasma |              2 |              300 |
+| Tormenta Movil  | Isla Norte      |              2 |              260 |
+| Tormenta Movil  | Ciudad Fantasma |              4 |              150 |
+| Tormenta Movil  | Isla Norte      |              1 |              380 |
+| Vortice Digital | NULL            |           NULL |             NULL |
++-----------------+-----------------+----------------+------------------+
++-----------------+------------+----------------+
+| escuadra        | plataforma | fecha_creacion |
++-----------------+------------+----------------+
+| Vortice Digital | consola    | 2026-06-01     |
+| Eclipse Squad   | movil      | 2026-07-15     |
++-----------------+------------+----------------+
++-----------------+----------------+
+| escuadra        | total_partidas |
++-----------------+----------------+
+| Escuadra Fenix  |              3 |
+| Tormenta Movil  |              3 |
+| Lobos Nocturnos |              2 |
+| Sombra Real     |              2 |
+| Eclipse Squad   |              0 |
+| Vortice Digital |              0 |
++-----------------+----------------+
++-----------------+----------------+
+| escuadra        | puntos_totales |
++-----------------+----------------+
+| Escuadra Fenix  |            850 |
+| Tormenta Movil  |            790 |
+| Lobos Nocturnos |            520 |
+| Sombra Real     |            390 |
+| Eclipse Squad   |              0 |
+| Vortice Digital |              0 |
++-----------------+----------------+
++-----------------+----------------+
+| escuadra        | mejor_posicion |
++-----------------+----------------+
+| Eclipse Squad   |           NULL |
+| Vortice Digital |           NULL |
+| Escuadra Fenix  |              1 |
+| Lobos Nocturnos |              1 |
+| Tormenta Movil  |              1 |
+| Sombra Real     |              2 |
++-----------------+----------------+
++-----------------+----------------+
+| escuadra        | ultima_partida |
++-----------------+----------------+
+| Tormenta Movil  | 2026-07-15     |
+| Sombra Real     | 2026-07-08     |
+| Escuadra Fenix  | 2026-07-05     |
+| Lobos Nocturnos | 2026-07-01     |
+| Eclipse Squad   | NULL           |
+| Vortice Digital | NULL           |
++-----------------+----------------+

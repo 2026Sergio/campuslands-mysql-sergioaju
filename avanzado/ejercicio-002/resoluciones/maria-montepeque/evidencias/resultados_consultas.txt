@@ -1,0 +1,46 @@
++----------------+----------------+----------------+----------------+
+| escuadra       | total_partidas | puntos_totales | mejor_posicion |
++----------------+----------------+----------------+----------------+
+| Escuadra Fenix |              3 |            850 |              1 |
++----------------+----------------+----------------+----------------+
++-----------------+----------------+----------------+----------------+
+| escuadra        | total_partidas | puntos_totales | mejor_posicion |
++-----------------+----------------+----------------+----------------+
+| Vortice Digital |              0 |              0 |           NULL |
++-----------------+----------------+----------------+----------------+
++-----------------+----------------+
+| escuadra        | puntos_totales |
++-----------------+----------------+
+| Escuadra Fenix  |            850 |
+| Tormenta Movil  |            790 |
+| Lobos Nocturnos |            520 |
++-----------------+----------------+
++-----------------+----------------+
+| escuadra        | puntos_totales |
++-----------------+----------------+
+| Escuadra Fenix  |            850 |
+| Tormenta Movil  |            790 |
+| Lobos Nocturnos |            520 |
+| Sombra Real     |            390 |
+| Eclipse Squad   |              0 |
+| Vortice Digital |              0 |
++-----------------+----------------+
++-------------------------+
+| total_partidas_cargadas |
++-------------------------+
+|                      10 |
++-------------------------+
++-----------------+-----------------+----------------+------------------+
+| escuadra        | mapa            | posicion_final | puntos_obtenidos |
++-----------------+-----------------+----------------+------------------+
+| Escuadra Fenix  | Isla Norte      |              1 |              350 |
+| Escuadra Fenix  | Desierto Rojo   |              3 |              220 |
+| Escuadra Fenix  | Isla Norte      |              2 |              280 |
+| Lobos Nocturnos | Ciudad Fantasma |              5 |              120 |
+| Lobos Nocturnos | Desierto Rojo   |              1 |              400 |
+| Sombra Real     | Desierto Rojo   |              6 |               90 |
+| Sombra Real     | Ciudad Fantasma |              2 |              300 |
+| Tormenta Movil  | Isla Norte      |              2 |              260 |
+| Tormenta Movil  | Ciudad Fantasma |              4 |              150 |
+| Tormenta Movil  | Isla Norte      |              1 |              380 |
++-----------------+-----------------+----------------+------------------+
