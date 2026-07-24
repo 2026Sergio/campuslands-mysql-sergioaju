@@ -1,0 +1,16 @@
+INSERT INTO liga_futbol (nombre_equipo, ciudad, partidos_jugados, partidos_ganados, goles_favor, puntos) VALUES
+('Real Madrid', 'Madrid', 20, 16, 48, 50),
+('Barcelona FC', 'Barcelona', 20, 15, 45, 47),
+('Manchester City', 'Manchester', 20, 14, 52, 46),
+('Liverpool FC', 'Liverpool', 20, 13, 43, 44),
+('Bayern Munich', 'Munich', 20, 13, 49, 43),
+('Paris Saint-Germain', 'Paris', 20, 12, 41, 40),
+('Inter Milan', 'Milan', 20, 11, 37, 38),
+('Arsenal FC', 'Londres', 20, 10, 35, 36),
+('Juventus FC', 'Turin', 20, 9, 31, 33),
+('Atletico Madrid', 'Madrid', 20, 8, 29, 31),
+('Borussia Dortmund', 'Dortmund', 20, 8, 34, 30),
+('AC Milan', 'Milan', 20, 7, 28, 28),
+('Chelsea FC', 'Londres', 20, 6, 25, 25),
+('Tottenham Hotspur', 'Londres', 20, 5, 27, 23),
+('Napoli FC', 'Napoles', 20, 4, 22, 19);
