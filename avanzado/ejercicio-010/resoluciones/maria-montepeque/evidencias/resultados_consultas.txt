@@ -1,0 +1,90 @@
++----------------+----------------+
+| piloto         | total_carreras |
++----------------+----------------+
+| Kairo Vega     |              2 |
+| Zara Nightfall |              2 |
+| Rex Turbo      |              2 |
+| Luna Drift     |              2 |
+| Mika Blaze     |              2 |
++----------------+----------------+
++----------------+---------------+
+| piloto         | total_premios |
++----------------+---------------+
+| Kairo Vega     |       2400.00 |
+| Zara Nightfall |       2100.00 |
+| Rex Turbo      |       1400.00 |
+| Luna Drift     |        950.00 |
+| Mika Blaze     |        450.00 |
++----------------+---------------+
++---------------+----------------+
+| estado        | total_carreras |
++---------------+----------------+
+| finalizada    |              8 |
+| descalificado |              1 |
+| abandono      |              1 |
++---------------+----------------+
++----------------------------+--------------------------+----------------------------------+
+| total_carreras_registradas | total_premios_repartidos | huella_datos                     |
++----------------------------+--------------------------+----------------------------------+
+|                         10 |                  7300.00 | 4a6b3238a2c7201963853e779d21d7f8 |
++----------------------------+--------------------------+----------------------------------+
++----+----------------+----------------+------------------+---------------+---------------+
+| id | piloto         | circuito       | posicion_llegada | premio_ganado | estado        |
++----+----------------+----------------+------------------+---------------+---------------+
+|  1 | Kairo Vega     | Circuito Norte |                1 |       1500.00 | finalizada    |
+|  2 | Kairo Vega     | Circuito Sur   |                2 |        900.00 | finalizada    |
+|  3 | Zara Nightfall | Circuito Norte |                3 |        500.00 | finalizada    |
+|  4 | Zara Nightfall | Circuito Este  |                1 |       1600.00 | finalizada    |
+|  5 | Rex Turbo      | Circuito Sur   |                1 |       1400.00 | finalizada    |
+|  6 | Rex Turbo      | Circuito Oeste |               99 |          0.00 | descalificado |
+|  7 | Luna Drift     | Circuito Este  |                2 |        700.00 | finalizada    |
+|  8 | Luna Drift     | Circuito Norte |                4 |        250.00 | finalizada    |
+|  9 | Mika Blaze     | Circuito Oeste |                3 |        450.00 | finalizada    |
+| 10 | Mika Blaze     | Circuito Sur   |               99 |          0.00 | abandono      |
++----+----------------+----------------+------------------+---------------+---------------+
++----------------+----------------+
+| circuito       | total_carreras |
++----------------+----------------+
+| Circuito Norte |              3 |
++----------------+----------------+
+
+=== CICLO REAL DE BACKUP LOGICO Y RESTAURACION (mysqldump) ===
+
+1. Backup generado con:
+   mysqldump -u campus -pcampus123 --no-tablespaces --databases campuslands_mysql
+     --tables participaciones_carreras_urbanas_backup > backup_participaciones.sql
+   (archivo guardado en evidencias/backup_participaciones.sql, 59 lineas,
+   incluye CREATE TABLE + 10 filas en un solo INSERT)
+
+   Nota: el primer intento SIN --no-tablespaces genero una advertencia
+   ("Access denied; you need the PROCESS privilege(s) ... to dump
+   tablespaces") porque el usuario campus no tiene privilegios globales.
+   No afecto los datos del backup, pero se repitio con --no-tablespaces
+   para un backup limpio sin advertencias.
+
+2. Estado ANTES del desastre:
+   filas_antes = 10
+
+3. DESASTRE SIMULADO: DROP TABLE participaciones_carreras_urbanas_backup;
+
+4. Confirmacion de que la tabla ya no existe:
+   ERROR 1146 (42S02): Table 'campuslands_mysql.participaciones_carreras_urbanas_backup' doesn't exist
+
+5. RESTAURACION desde el backup:
+   mysql -u campus -pcampus123 campuslands_mysql < backup_participaciones.sql
+   -> ejecutado sin errores
+
+6. Verificacion post-restauracion (misma consulta con huella MD5 que la
+   consulta 4 del entregable, ejecutada ANTES del desastre):
+   +----------------------------+---------------------------+------------------------------------+
+   | total_carreras_registradas | total_premios_repartidos  | huella_datos                       |
+   +----------------------------+---------------------------+------------------------------------+
+   |                          10 |                   7300.00 | 4a6b3238a2c7201963853e779d21d7f8   |
+   +----------------------------+---------------------------+------------------------------------+
+
+   La huella MD5 coincide EXACTAMENTE con la calculada antes del desastre
+   (misma huella que aparece en la consulta 4, mas arriba en este archivo):
+   4a6b3238a2c7201963853e779d21d7f8
+
+   Esto confirma que la restauracion recupero los datos de forma identica,
+   fila por fila, sin perdida ni alteracion.

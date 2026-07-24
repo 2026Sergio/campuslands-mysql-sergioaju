@@ -1,0 +1,41 @@
++----------------+-------------+-----------------+--------------------+
+| nombre         | alias       | licencia_piloto | vehiculo           |
++----------------+-------------+-----------------+--------------------+
+| Byte Runner    | B-Runner    | LIC-0006        | Mitsubishi Evo IX  |
+| Kairo Vega     | K-Vega      | LIC-0001        | Nissan Silvia S15  |
+| Kairo Vega     | KV-Estrella | LIC-0007        | Toyota AE86        |
+| Luna Drift     | L-Drift     | LIC-0004        | Honda Civic Type R |
+| Mika Blaze     | M-Blaze     | LIC-0005        | Subaru Impreza WRX |
+| Nova Circuit   | N-Circuit   | LIC-0010        | Ford Mustang GT    |
+| Pixel Storm    | P-Storm     | LIC-0009        | BMW M3 E46         |
+| Rex Turbo      | R-Turbo     | LIC-0003        | Toyota Supra       |
+| Skye Fenix     | S-Fenix     | LIC-0008        | Nissan GT-R        |
+| Zara Nightfall | Z-Night     | LIC-0002        | Mazda RX-7         |
++----------------+-------------+-----------------+--------------------+
++-----------+----------------+------------------+
+| alias     | nombre         | puntos_temporada |
++-----------+----------------+------------------+
+| S-Fenix   | Skye Fenix     |             1750 |
+| Z-Night   | Zara Nightfall |             1600 |
+| R-Turbo   | Rex Turbo      |             1400 |
+| N-Circuit | Nova Circuit   |             1300 |
+| K-Vega    | Kairo Vega     |             1200 |
++-----------+----------------+------------------+
++----------------+-----------------+
+| circuito_local | pilotos_activos |
++----------------+-----------------+
+| Circuito Este  |               3 |
+| Circuito Norte |               2 |
+| Circuito Oeste |               2 |
+| Circuito Sur   |               1 |
++----------------+-----------------+
++------------+-------------------+----------------+------------------+
+| nombre     | vehiculo          | circuito_local | puntos_temporada |
++------------+-------------------+----------------+------------------+
+| Kairo Vega | Nissan Silvia S15 | Circuito Norte |             1200 |
++------------+-------------------+----------------+------------------+
++------------+-------------------------+
+| nombre     | pilotos_con_este_nombre |
++------------+-------------------------+
+| Kairo Vega |                       2 |
++------------+-------------------------+
