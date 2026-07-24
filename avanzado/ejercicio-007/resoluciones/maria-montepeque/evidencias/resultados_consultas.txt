@@ -1,0 +1,49 @@
++----------------+-----------------+---------------+----------------+--------+----------+
+| jugador        | equipo          | fecha_partido | estadio        | minuto | tipo_gol |
++----------------+-----------------+---------------+----------------+--------+----------+
+| Mateo Rivas    | Aguilas Doradas | 2026-05-10    | Estadio Norte  |     15 | normal   |
+| Diego Palma    | Tigres del Sur  | 2026-05-10    | Estadio Norte  |     33 | normal   |
+| Mateo Rivas    | Aguilas Doradas | 2026-05-10    | Estadio Norte  |     78 | penal    |
+| Nico Farias    | Leones FC       | 2026-05-24    | Estadio Centro |     10 | normal   |
+| Santi Belmonte | Aguilas Doradas | 2026-05-24    | Estadio Centro |     45 | normal   |
+| Nico Farias    | Leones FC       | 2026-05-24    | Estadio Centro |     60 | normal   |
+| Ruben Casal    | Tigres del Sur  | 2026-06-07    | Estadio Sur    |     20 | autogol  |
+| Andres Roble   | Leones FC       | 2026-06-07    | Estadio Sur    |     55 | normal   |
++----------------+-----------------+---------------+----------------+--------+----------+
++----------------+-----------------+-------------+
+| jugador        | equipo          | total_goles |
++----------------+-----------------+-------------+
+| Mateo Rivas    | Aguilas Doradas |           2 |
+| Nico Farias    | Leones FC       |           2 |
+| Diego Palma    | Tigres del Sur  |           1 |
+| Santi Belmonte | Aguilas Doradas |           1 |
+| Ruben Casal    | Tigres del Sur  |           1 |
+| Andres Roble   | Leones FC       |           1 |
++----------------+-----------------+-------------+
++------------+-----------------+------------------+---------------+-------------+
+| partido_id | equipo_local    | equipo_visitante | fecha_partido | total_goles |
++------------+-----------------+------------------+---------------+-------------+
+|          1 | Aguilas Doradas | Tigres del Sur   | 2026-05-10    |           3 |
+|          2 | Leones FC       | Aguilas Doradas  | 2026-05-24    |           3 |
+|          3 | Tigres del Sur  | Leones FC        | 2026-06-07    |           2 |
++------------+-----------------+------------------+---------------+-------------+
++----+----------------+-----------+--------+--------+
+| id | nombre         | equipo_id | dorsal | estado |
++----+----------------+-----------+--------+--------+
+|  6 | Andres Roble   |         3 |     10 | activo |
+|  3 | Diego Palma    |         2 |     11 | activo |
+|  8 | Karla Ibanez   |         4 |      6 | activo |
+|  1 | Mateo Rivas    |         1 |     99 | activo |
+|  5 | Nico Farias    |         3 |      7 | activo |
+|  2 | Santi Belmonte |         1 |      8 | activo |
++----+----------------+-----------+--------+--------+
++-------------+--------+--------+
+| nombre      | dorsal | estado |
++-------------+--------+--------+
+| Mateo Rivas |     99 | activo |
++-------------+--------+--------+
++-----------------+-------------------+
+| total_jugadores | jugadores_activos |
++-----------------+-------------------+
+|               8 |                 6 |
++-----------------+-------------------+

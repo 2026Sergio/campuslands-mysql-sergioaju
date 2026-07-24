@@ -1,0 +1,77 @@
++-----------------+--------+------------------+
+| equipo          | puntos | diferencia_goles |
++-----------------+--------+------------------+
+| Aguilas Doradas |     41 |               18 |
+| Tigres del Sur  |     39 |               17 |
+| Leones FC       |     34 |                5 |
+| Halcones United |     32 |                4 |
+| Panteras FC     |     31 |                4 |
+| Cobras Real     |     27 |               -2 |
+| Lobos FC        |     23 |               -6 |
+| Toros Bravos    |     23 |              -10 |
+| Delfines Azules |     18 |              -16 |
+| Escorpiones     |     13 |              -24 |
++-----------------+--------+------------------+
++-----------------+--------------+
+| equipo          | ciudad       |
++-----------------+--------------+
+| Aguilas Doradas | Ciudad Norte |
+| Cobras Real     | Ciudad Sur   |
+| Delfines Azules | Ciudad Norte |
+| Escorpiones     | Ciudad Sur   |
+| Halcones United | Ciudad Oeste |
+| Leones FC       | Ciudad Este  |
+| Lobos FC        | Ciudad Oeste |
+| Panteras FC     | Ciudad Norte |
+| Tigres del Sur  | Ciudad Sur   |
+| Toros Bravos    | Ciudad Este  |
++-----------------+--------------+
++-----------------+-------------+
+| equipo          | goles_favor |
++-----------------+-------------+
+| Aguilas Doradas |          38 |
+| Tigres del Sur  |          35 |
+| Leones FC       |          30 |
++-----------------+-------------+
++-----------------+--------------+
+| equipo          | goles_contra |
++-----------------+--------------+
+| Escorpiones     |           38 |
+| Delfines Azules |           32 |
+| Toros Bravos    |           30 |
+| Cobras Real     |           26 |
+| Leones FC       |           25 |
+| Halcones United |           24 |
+| Lobos FC        |           24 |
+| Panteras FC     |           22 |
+| Aguilas Doradas |           20 |
+| Tigres del Sur  |           18 |
++-----------------+--------------+
++-----------------+-----------+----------+
+| equipo          | victorias | derrotas |
++-----------------+-----------+----------+
+| Aguilas Doradas |        12 |        3 |
+| Tigres del Sur  |        11 |        3 |
+| Leones FC       |        10 |        6 |
+| Halcones United |         9 |        6 |
+| Panteras FC     |         8 |        5 |
+| Cobras Real     |         7 |        7 |
+| Toros Bravos    |         6 |        9 |
+| Lobos FC        |         5 |        7 |
+| Delfines Azules |         4 |       10 |
+| Escorpiones     |         3 |       13 |
++-----------------+-----------+----------+
++--------------+-----------------+
+| ciudad       | equipo          |
++--------------+-----------------+
+| Ciudad Este  | Leones FC       |
+| Ciudad Este  | Toros Bravos    |
+| Ciudad Norte | Aguilas Doradas |
+| Ciudad Norte | Delfines Azules |
+| Ciudad Norte | Panteras FC     |
+| Ciudad Oeste | Halcones United |
+| Ciudad Oeste | Lobos FC        |
+| Ciudad Sur   | Cobras Real     |
+| Ciudad Sur   | Escorpiones     |
+| Ciudad Sur   | Tigres del Sur  |
++--------------+-----------------+
