@@ -1,0 +1,16 @@
+INSERT INTO autos_hiperdeportivos (marca, modelo, velocidad_maxima, potencia_hp, precio, pais_origen) VALUES
+('Bugatti', 'Chiron Super Sport', 490, 1600, 3500000000.00, 'Francia'),
+('Koenigsegg', 'Jesko Absolut', 531, 1603, 3200000000.00, 'Suecia'),
+('Hennessey', 'Venom F5', 500, 1817, 2800000000.00, 'Estados Unidos'),
+('Rimac', 'Nevera', 412, 1914, 2400000000.00, 'Croacia'),
+('Pagani', 'Huayra BC', 383, 800, 2200000000.00, 'Italia'),
+('McLaren', 'Speedtail', 403, 1055, 1800000000.00, 'Reino Unido'),
+('Ferrari', 'SF90 Stradale', 340, 986, 1600000000.00, 'Italia'),
+('Lamborghini', 'Revuelto', 350, 1001, 1500000000.00, 'Italia'),
+('Aston Martin', 'Valkyrie', 355, 1160, 1400000000.00, 'Reino Unido'),
+('Porsche', '918 Spyder', 345, 887, 1300000000.00, 'Alemania'),
+('Mercedes-AMG', 'One', 352, 1063, 1250000000.00, 'Alemania'),
+('SSC', 'Tuatara', 455, 1750, 2700000000.00, 'Estados Unidos'),
+('Zenvo', 'TSR-S', 325, 1177, 1100000000.00, 'Dinamarca'),
+('Lotus', 'Evija', 350, 2011, 2300000000.00, 'Reino Unido'),
+('Maserati', 'MC20', 325, 621, 850000000.00, 'Italia');
