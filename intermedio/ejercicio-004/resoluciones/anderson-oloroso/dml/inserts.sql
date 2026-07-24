@@ -1,0 +1,16 @@
+INSERT INTO garaje_motos (marca, modelo, cilindraje, anio, precio, estado) VALUES
+('Yamaha', 'MT-07', 689, 2023, 4200.00, 'Disponible'),
+('Yamaha', 'R1', 998, 2021, 9200.00, 'Vendida'),
+('Yamaha', 'Tenere 700', 689, 2024, 5500.00, 'Disponible'),
+('Honda', 'CB650R', 649, 2022, 48500.00, 'Disponible'),
+('Honda', 'Africa Twin', 1084, 2022, 7900.00, 'Disponible'),
+('Honda', 'CBR1000RR', 999, 2023, 9800.00, 'Vendida'),
+('Kawasaki', 'Ninja 400', 399, 2023, 3200.00, 'Disponible'),
+('Kawasaki', 'Z900', 948, 2023, 5700.00, 'Disponible'),
+('Kawasaki', 'Ninja ZX-10R', 998, 2022, 10500.00, 'Vendida'),
+('Suzuki', 'GSX-S750', 749, 2021, 3900.00, 'Vendida'),
+('Suzuki', 'V-Strom 650', 645, 2020, 36500.00, 'Disponible'),
+('Suzuki', 'Hayabusa', 1340, 2023, 1100.00, 'Disponible'),
+('Ducati', 'Monster', 937, 2022, 6800.00, 'Disponible'),
+('Ducati', 'Panigale V2', 955, 2023, 8900.00, 'Disponible'),
+('Ducati', 'Multistrada V4', 1158, 2024, 12500.00, 'Vendida');
