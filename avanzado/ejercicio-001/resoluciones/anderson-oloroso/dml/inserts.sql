@@ -1,0 +1,33 @@
+INSERT INTO equipos_esports_moba (nombre_equipo, region, puntos, estado) VALUES
+('Fenix Gaming', 'Latinoamerica', 1250, 'Activo'),
+('Titanes Esports', 'Norteamerica', 1180, 'Activo'),
+('Dragones Elite', 'Europa', 1320, 'Activo'),
+('Lobos Gaming', 'Asia', 1450, 'Activo'),
+('Guardianes MOBA', 'Brasil', 980, 'Activo'),
+('Reyes del Nexus', 'Corea del Sur', 1520, 'Activo'),
+('Tormenta Digital', 'China', 1480, 'Activo'),
+('Halcones Pro', 'Europa', 1100, 'Activo'),
+('Panteras Gaming', 'Latinoamerica', 920, 'Activo'),
+('Imperio Esports', 'Norteamerica', 1050, 'Activo'),
+('Cometas Gaming', 'Asia', 1270, 'Activo'),
+('Guerreros del Rift', 'Brasil', 890, 'Activo'),
+('Legion Pro', 'Corea del Sur', 1390, 'Activo'),
+('Estrellas MOBA', 'China', 1340, 'Activo'),
+('Vanguardia Gaming', 'Latinoamerica', 760, 'Inactivo');
+
+INSERT INTO movimientos_torneo_moba (equipo_id, tipo_movimiento, puntos_movimiento, fecha_movimiento) VALUES
+(1, 'Victoria', 50, '2026-01-05'),
+(2, 'Victoria', 40, '2026-01-06'),
+(3, 'Derrota', -30, '2026-01-07'),
+(4, 'Victoria', 60, '2026-01-08'),
+(5, 'Derrota', -20, '2026-01-09'),
+(6, 'Victoria', 70, '2026-01-10'),
+(7, 'Victoria', 65, '2026-01-11'),
+(8, 'Derrota', -25, '2026-01-12'),
+(9, 'Victoria', 45, '2026-01-13'),
+(10, 'Victoria', 35, '2026-01-14'),
+(11, 'Derrota', -15, '2026-01-15'),
+(12, 'Victoria', 30, '2026-01-16'),
+(13, 'Victoria', 55, '2026-01-17'),
+(14, 'Derrota', -20, '2026-01-18'),
+(15, 'Victoria', 25, '2026-01-19');
