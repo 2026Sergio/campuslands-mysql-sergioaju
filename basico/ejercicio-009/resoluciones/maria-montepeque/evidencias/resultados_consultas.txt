@@ -1,0 +1,56 @@
++--------------+----------------+-------------------+----------+
+| nombre       | categoria_peso | gimnasio          | estado   |
++--------------+----------------+-------------------+----------+
+| KaidoFist    | pluma          | Gimnasio Fenix    | activo   |
+| KairoPhantom | pluma          | Gimnasio Fenix    | activo   |
+| LunaBlaze    | pluma          | Gimnasio Lobos    | activo   |
+| MikaThunder  | medio          | Gimnasio Tormenta | activo   |
+| PixelRage    | medio          | Gimnasio Tormenta | activo   |
+| RexStrike    | pesado         | Gimnasio Lobos    | activo   |
+| SkyeVenom    | pesado         | Gimnasio Fenix    | activo   |
+| TahoShadow   | ligero         | Gimnasio Tormenta | retirado |
+| ZaraKick     | medio          | Gimnasio Fenix    | activo   |
++--------------+----------------+-------------------+----------+
++----------------------------+
+| registros_prueba_restantes |
++----------------------------+
+|                          0 |
++----------------------------+
++-----------+-------------------+----------------+
+| nombre    | gimnasio          | peleas_ganadas |
++-----------+-------------------+----------------+
+| RexStrike | Gimnasio Lobos    |             20 |
+| SkyeVenom | Gimnasio Fenix    |             18 |
+| KaidoFist | Gimnasio Fenix    |             15 |
+| PixelRage | Gimnasio Tormenta |             14 |
+| ZaraKick  | Gimnasio Fenix    |             12 |
++-----------+-------------------+----------------+
++----------------+------------------+
+| categoria_peso | total_peleadores |
++----------------+------------------+
+| pluma          |                3 |
+| medio          |                3 |
+| pesado         |                2 |
+| ligero         |                1 |
++----------------+------------------+
++--------------+----------------+-----------------+-----------------+
+| nombre       | peleas_ganadas | peleas_perdidas | pct_efectividad |
++--------------+----------------+-----------------+-----------------+
+| SkyeVenom    |             18 |               1 |           94.74 |
+| RexStrike    |             20 |               2 |           90.91 |
+| KaidoFist    |             15 |               3 |           83.33 |
+| PixelRage    |             14 |               3 |           82.35 |
+| MikaThunder  |             10 |               4 |           71.43 |
+| ZaraKick     |             12 |               5 |           70.59 |
+| KairoPhantom |              9 |               5 |           64.29 |
+| LunaBlaze    |              8 |               6 |           57.14 |
+| TahoShadow   |              5 |               9 |           35.71 |
++--------------+----------------+-----------------+-----------------+
++-------------------+----------+------------------+
+| gimnasio          | estado   | total_peleadores |
++-------------------+----------+------------------+
+| Gimnasio Fenix    | activo   |                4 |
+| Gimnasio Lobos    | activo   |                2 |
+| Gimnasio Tormenta | activo   |                2 |
+| Gimnasio Tormenta | retirado |                1 |
++-------------------+----------+------------------+

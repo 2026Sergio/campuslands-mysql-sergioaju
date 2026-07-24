@@ -1,0 +1,71 @@
++--------------------+-------------------+
+| nombre_evento      | cupos_disponibles |
++--------------------+-------------------+
+| Torneo Relampago   |                 8 |
+| Copa Kick 2026     |                 5 |
+| Duelo de Campeones |                 2 |
++--------------------+-------------------+
++-------------------+
+| cupos_disponibles |
++-------------------+
+|                 5 |
++-------------------+
++--------------------------+-------+
+| Variable_name            | Value |
++--------------------------+-------+
+| innodb_lock_wait_timeout | 50    |
++--------------------------+-------+
++-------------------+
+| nivel_aislamiento |
++-------------------+
+| REPEATABLE-READ   |
++-------------------+
++---------------------------+
+| cupos_totales_disponibles |
++---------------------------+
+|                        15 |
++---------------------------+
++------------------+-------------------+
+| nombre_evento    | cupos_disponibles |
++------------------+-------------------+
+| Torneo Relampago |                 8 |
++------------------+-------------------+
+
+=== PRUEBA DE BLOQUEO REAL CON DOS SESIONES CONCURRENTES ===
+
+SESION A (background): abre transaccion, SELECT ... FOR UPDATE sobre
+'Copa Kick 2026' (cupos_disponibles = 5), y retiene el bloqueo con
+SELECT SLEEP(8) antes de hacer UPDATE + COMMIT.
+
+Snapshot tomado 2 segundos despues de iniciar SESION A
+(information_schema.innodb_trx):
++--------+-----------+----------------------------------------------------+
+| trx_id | trx_state | trx_query                                          |
++--------+-----------+----------------------------------------------------+
+|   8292 | RUNNING   | SELECT SLEEP(8) AS sesion_a_reteniendo_el_bloqueo   |
++--------+-----------+----------------------------------------------------+
+Confirma que la transaccion de SESION A seguia activa, reteniendo el
+bloqueo FOR UPDATE sobre la fila de 'Copa Kick 2026'.
+
+SESION B (foreground, lanzada justo despues del snapshot): intenta el
+mismo SELECT ... FOR UPDATE sobre la misma fila.
+
+Resultado medido con `time`:
+    real    0m5.925s
+
+SESION B quedo BLOQUEADA esperando a que SESION A liberara el lock con su
+COMMIT. Como SESION B se lanzo ~2s despues de SESION A (que retiene el
+lock por 8s), un tiempo real de ~5.9s es exactamente lo esperado si
+SESION B tuvo que esperar el resto del bloqueo de SESION A antes de poder
+continuar. Sin el bloqueo, SESION B habria respondido en milisegundos.
+
+Salida de SESION A al completarse:
+    cupos_disponibles = 5   (valor leido con FOR UPDATE)
+    sesion_a_reteniendo_el_bloqueo = 0   (SLEEP(8) termino sin interrupciones)
+
+Salida de SESION B tras desbloquearse:
+    cupos_disponibles = 4   (ya reflejaba el UPDATE de SESION A, confirmado
+                              por su propio COMMIT)
+
+Despues de la prueba se restauro cupos_disponibles = 5 para 'Copa Kick 2026',
+dejando los datos exactamente como los carga dml/inserts.sql.

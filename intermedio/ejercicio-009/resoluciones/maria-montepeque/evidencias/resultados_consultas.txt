@@ -1,0 +1,46 @@
++--------------+-------------------+--------------+
+| peleador     | gimnasio          | ciudad       |
++--------------+-------------------+--------------+
+| KaidoFist    | Gimnasio Fenix    | Ciudad Norte |
+| KairoPhantom | Gimnasio Fenix    | Ciudad Norte |
+| SkyeVenom    | Gimnasio Fenix    | Ciudad Norte |
+| ZaraKick     | Gimnasio Fenix    | Ciudad Norte |
+| ByteCrusher  | Gimnasio Lobos    | Ciudad Sur   |
+| LunaBlaze    | Gimnasio Lobos    | Ciudad Sur   |
+| RexStrike    | Gimnasio Lobos    | Ciudad Sur   |
+| MikaThunder  | Gimnasio Tormenta | Ciudad Este  |
+| PixelRage    | Gimnasio Tormenta | Ciudad Este  |
+| TahoShadow   | Gimnasio Tormenta | Ciudad Este  |
++--------------+-------------------+--------------+
++-------------------+------------------+
+| gimnasio          | total_peleadores |
++-------------------+------------------+
+| Gimnasio Fenix    |                4 |
+| Gimnasio Lobos    |                3 |
+| Gimnasio Tormenta |                3 |
++-------------------+------------------+
++----------------+--------------+
+| gimnasio       | ciudad       |
++----------------+--------------+
+| Gimnasio Vacio | Ciudad Oeste |
++----------------+--------------+
++-------------------+-----------+----------------+
+| gimnasio          | peleador  | peleas_ganadas |
++-------------------+-----------+----------------+
+| Gimnasio Lobos    | RexStrike |             20 |
+| Gimnasio Fenix    | SkyeVenom |             18 |
+| Gimnasio Tormenta | PixelRage |             14 |
++-------------------+-----------+----------------+
++-------------------+-------------------+
+| gimnasio          | victorias_totales |
++-------------------+-------------------+
+| Gimnasio Fenix    |                54 |
+| Gimnasio Tormenta |                29 |
+| Gimnasio Lobos    |                28 |
++-------------------+-------------------+
++-------------+-------------------+----------------+-----------------+
+| peleador    | gimnasio          | peleas_ganadas | peleas_perdidas |
++-------------+-------------------+----------------+-----------------+
+| ByteCrusher | Gimnasio Lobos    |              0 |               1 |
+| TahoShadow  | Gimnasio Tormenta |              5 |               9 |
++-------------+-------------------+----------------+-----------------+
