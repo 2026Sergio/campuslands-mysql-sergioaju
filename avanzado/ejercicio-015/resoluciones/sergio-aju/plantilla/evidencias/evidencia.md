@@ -12,3 +12,11 @@ Ejecuta los scripts en orden en tu gestor MySQL:
 1. `ddl/schema.sql`
 2. `dml/inserts.sql`
 3. `dql/consultas.sql`
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
