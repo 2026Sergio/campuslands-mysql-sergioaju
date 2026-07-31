@@ -1,11 +1,22 @@
-USE db_hiperdeportivos;
+INSERT INTO hiperdeportivos (id_auto, marca, modelo, pais_origen) VALUES
+(1, 'Bugatti', 'Chiron Super Sport', 'Francia'),
+(2, 'Koenigsegg', 'Jesko Absolut', 'Suecia'),
+(3, 'Rimac', 'Nevera', 'Croacia'),
+(4, 'Pagani', 'Utopia', 'Italia');
 
-INSERT INTO hiperdeportivos (marca, modelo, velocidad_maxima, potencia_hp, precio_millones, pais_origen) VALUES
-('Bugatti', 'Chiron Super Sport', 440, 1600, 3.80, 'Francia'),
-('Koenigsegg', 'Jesko Absolut', 455, 1600, 3.40, 'Suecia'),
-('Rimac', 'Nevera', 412, 1914, 2.20, 'Croacia'),
-('Hennessey', 'Venom F5', 500, 1817, 3.00, 'Estados Unidos'),
-('Pagani', 'Utopia', 350, 864, 2.50, 'Italia'),
-('Lotus', 'Evija', 320, 2039, 2.30, 'Reino Unido'),
-('SSC', 'Tuatara', 455, 1750, 1.90, 'Estados Unidos'),
-('Ferrari', 'Daytona SP3', 340, 840, 2.25, 'Italia');
+INSERT INTO caracteristicas_tecnicas (id_auto, tipo_caracteristica, valor) VALUES
+(1, 'Color Exterior', 'Negro Fibra de Carbono'),
+(1, 'Color Exterior', 'Azul Francia'),
+(1, 'Material Chasis', 'Fibra de Carbono'),
+(2, 'Color Exterior', 'Blanco Brillante'),
+(2, 'Material Chasis', 'Fibra de Carbono'),
+(3, 'Color Exterior', 'Gris Tormenta'),
+(4, 'Color Exterior', 'Oro Antiguo'),
+(4, 'Material Interior', 'Titanio y Cuero');
+
+INSERT INTO mantenimientos (id_auto, tipo_servicio, costo) VALUES
+(1, 'Cambio de Aceite Especial', 25000.00),
+(1, 'Revision Aerodinamica', 12000.00),
+(2, 'Calibracion de Transmision', 18000.00),
+(3, 'Diagnostico de Baterias EV', 30000.00),
+(4, 'Ajuste de Suspension', 15000.00);

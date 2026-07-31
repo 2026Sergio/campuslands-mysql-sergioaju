@@ -1,8 +1,9 @@
 # Ejercicio-06
 
 # Explicacion 
-En este ejercicio me tocó resolver una práctica de nivel principiante enfocada en el uso de la cláusula **WHERE** para filtrar registros específicos. Para mantener la temática propuesta, armé una base de datos orientada a **autos hiperdeportivos**, estructurando los scripts de manera limpia y profesional con su respectivo DDL, DML y DQL.
+En este ejercicio practiqué los fundamentos de la normalización de bases de datos, centrándome específicamente en la **Primera Forma Normal (1FN)**. Para cumplir con sus requisitos (valores atómicos, eliminación de grupos repetitivos y definición de una llave primaria clara), diseñé una solución desde cero utilizando la temática de autos hiperdeportivos, estructurando los scripts en DDL, DML y DQL de forma profesional.
 
+## Estructura de ejercicio
 ## Estructura de ejercicio
 ```
 └── 📁ejercicio-006
@@ -30,7 +31,7 @@ En este ejercicio me tocó resolver una práctica de nivel principiante enfocada
 
 ## Componentes Principales
 
-* **`ddl/schema.sql`** → Creación de la base de datos y la tabla `hiperdeportivos` con sus tipos de datos adecuados y restricciones.
-* **`dml/inserts.sql`** → Inserción de registros reales y coherentes de marcas icónicas de hiperdeportivos (Bugatti, Koenigsegg, Rimac, etc.).
-* **`dql/consultas.sql`** → Prácticas de filtrado utilizando la cláusula **WHERE** con operadores lógicos y de comparación (`>`, `<`, `=`, `BETWEEN`).
+* **`ddl/schema.sql`** → Creación de la base de datos y diseño de tablas normalizadas (`hiperdeportivos`, `caracteristicas_tecnicas` y `mantenimientos`) que garantizan la atomicidad de los datos y evitan la redundancia horizontal.
+* **`dml/inserts.sql`** → Carga de datos de prueba estructurados de manera atómica, separando atributos multivaluados y registros dependientes.
+* **`dql/consultas.sql`** → Consultas analíticas mediante operaciones de unión (`JOIN`), funciones de agregación (`SUM`) y filtrado (`WHERE`) para validar la correcta integridad de la estructura en 1FN.
 * **`README.md`** → Documentación general del ejercicio.

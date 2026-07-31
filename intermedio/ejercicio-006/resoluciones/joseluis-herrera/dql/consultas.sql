@@ -1,18 +1,24 @@
-USE db_hiperdeportivos;
+USE db_hiperdeportivos_1fn;
 
-SELECT marca, modelo, velocidad_maxima 
-FROM hiperdeportivos 
-WHERE velocidad_maxima > 420;
+SELECT 
+    h.marca, 
+    h.modelo, 
+    c.tipo_caracteristica, 
+    c.valor
+FROM hiperdeportivos h
+JOIN caracteristicas_tecnicas c ON h.id_auto = c.id_auto;
 
-SELECT marca, modelo, pais_origen 
-FROM hiperdeportivos 
-WHERE pais_origen = 'Italia';
+SELECT 
+    h.marca, 
+    h.modelo, 
+    SUM(m.costo) AS costo_total_mantenimiento
+FROM hiperdeportivos h
+JOIN mantenimientos m ON h.id_auto = m.id_auto
+GROUP BY h.id_auto, h.marca, h.modelo;
 
-SELECT marca, modelo, precio_millones 
-FROM hiperdeportivos 
-WHERE precio_millones BETWEEN 2.00 AND 3.00;
-
-SELECT marca, modelo, potencia_hp 
-FROM hiperdeportivos 
-WHERE potencia_hp > 1500 
-ORDER BY potencia_hp DESC;
+SELECT 
+    h.marca, 
+    h.modelo, 
+    h.pais_origen
+FROM hiperdeportivos h
+WHERE h.pais_origen = 'Francia';
