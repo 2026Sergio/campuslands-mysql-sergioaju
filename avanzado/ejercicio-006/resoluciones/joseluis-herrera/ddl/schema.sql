@@ -29,4 +29,3 @@ CREATE TABLE mantenimientos (
     CONSTRAINT fk_auto_mant FOREIGN KEY (id_auto) REFERENCES hiperdeportivos(id_auto)
         ON DELETE CASCADE ON UPDATE CASCADE
 );
-.

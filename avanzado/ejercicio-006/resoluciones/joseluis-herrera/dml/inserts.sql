@@ -20,4 +20,3 @@ INSERT INTO mantenimientos (id_auto, tipo_servicio, costo) VALUES
 (2, 'Calibracion de Transmision', 18000.00),
 (3, 'Diagnostico de Baterias EV', 30000.00),
 (4, 'Ajuste de Suspension', 15000.00);
-.
